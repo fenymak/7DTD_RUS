@@ -2511,14 +2511,14 @@
 	<window name="windowQuestTurnInRewards" width="653" height="454" panel="Left" cursor_area="true" controller="QuestTurnInRewardsWindow" > <!--item_format="{0}: [DECEA3]{1}[-]" item_bonus_format="{0}: [DECEA3]{1}[-] ([DECEA3]{2}[-] {3})"-->
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_treasure"/>
-			<label style="header.name" text="REWARDS" width="500" />
+			<label style="header.name" text="REWARDS" text_key="xuiRewards" width="500" />
 			<label depth="2" pos="545,-8" width="100" height="28" text="{sharedbyname}" color="[lightGrey]" justify="right" upper_case="true" />
 		</panel>
 		<rect name="content" pos="0,-46" height="70" depth="1">
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="653" height="418" color="[black]" type="sliced" fillcenter="false" />
 			<sprite color="[darkGrey]" type="sliced" />
-			<label pos="10,-6" depth="3" height="30" text="XP: {questxpreward}" font_size="28" visible="{questhasxpreward}" />
-			<label pos="10,-32" depth="3" height="30" text="ITEMS: {questitemrewards}" font_size="28" visible="{questhasitemrewards}" />
+			<label pos="10,-6" depth="3" height="30" text="ОПЫТ: {questxpreward}" font_size="28" visible="{questhasxpreward}" />
+			<label pos="10,-32" depth="3" height="30" text="ПРЕДМЕТЫ: {questitemrewards}" font_size="28" visible="{questhasitemrewards}" />
 			<!-- <label pos="10,-58" depth="3" height="30" text="TRADERS REP: [DECEA3]+35[-] ([DECEA3]+3[-] INFLUENCE) " font_size="28" visible="false" /> -->
 			<!-- <label pos="10,-84" depth="3" height="30" text="BANDITS REP: [DECEA3]-17[-] ([DECEA3]+2[-] INFLUENCE) " font_size="28" visible="false" /> -->
 		</rect>
