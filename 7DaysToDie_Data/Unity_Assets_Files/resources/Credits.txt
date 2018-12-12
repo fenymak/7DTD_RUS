@@ -1,0 +1,737 @@
+<credits>
+  <category name="7 Days to Die ©2018 Fun Pimps LLC. Все права защищены.">
+  	<blank/>
+	<blank/>
+	<blank/>
+  </category>
+  
+  <category name="Путь">
+  	<blank/>
+    <credit center_text="С момента выпуска игра находится в разработке почти 6 лет."/>
+    <credit center_text="Мы очень благодарны за наши успехи и постоянную поддержку нашим фанатам,"/>
+    <credit center_text="семьяи и Богу, которые были с нами на каждом шагу этого долгого пути."/>
+    <blank/>
+    <credit center_text="...Но некоторые этого не сделали, и мы не забудем!"/>
+	<blank/>
+	<blank/>
+  </category>
+
+  <category name="Посвящается памяти:">
+	<credit name="Deb 'wheelchairwhiz' " contribution="Мать и друг"/>
+	<credit name="John Warren" contribution="Брат и отец"/>
+	<credit name="Bryan 'DrunkenNoodle' Amador" contribution="Брат"/>
+	<credit name="Pacco" contribution="Мододел Starvation"/>
+    <credit name="Tony Morales" contribution="Отец"/>
+	<credit name="Linda Morales" contribution="Мать"/>
+	<credit name="Rudy" contribution="Особенная собачонка"/>
+	<blank/>
+	<blank/>
+  </category>
+  
+
+  <category name="The Fun Pimps:">
+    <credit name="Richard 'Fun Pimp' Huenink" contribution="Основатель/Дизайнер"/>
+    <credit name="Joel 'Madmole' Huenink" contribution="Основатель/Дизайнер"/>
+    <credit name="Christian Lang" contribution="Основатель/Программист"/>
+    <credit name="Ryan Raner" contribution="Художник окружения"/>
+    <credit name="Joey Struve" contribution="Художник персонажей"/>
+    <credit name="Robert 'Kinyajuu' Dishong" contribution="Программист"/>
+    <credit name="Shinichiro Hara 'Sheen'" contribution="Анимация"/>
+	<credit name="Koji Higashi" contribution="Анимация"/>
+    <credit name="Christian 'Alloc' Illy" contribution="Программист"/>
+    <credit name="Eric Von Rothkirch" contribution="Художник окружения/Звук"/>	
+	<credit name="Lathan 'Prime' Meadows" contribution="Программист"/>
+	<credit name="Shawn 'faatal' Liptak" contribution="Программист"/>
+	<credit name="Justin Owens" contribution="Художник окружения"/>
+	<credit name="Brad Jacobs" contribution="Художник окружения"/>
+	<credit name="Robert ‘Gazz’ Hentschke" contribution="Сценарист"/>
+	<credit name="Zack Roberts" contribution="Программист"/>
+	<credit name="Matt Hwang" contribution="Художник окружения"/>
+	<credit name="Shen Fei" contribution="Концепт-художник"/>
+	<credit name="Alexander Van Huenink" contribution="Художник окружения"/>
+    <credit name="Andrew Kerschner" contribution="Художник оружия"/>
+	<credit name="Christian Huenink" contribution="Художник окружения"/>
+    <credit name="Brad 'Fluffer' Senff" contribution="Сервера/PHP"/>
+	<credit name="Brian Jost" contribution="Программист/PHP"/>
+    <credit name="Franchesca Morales" contribution="Администрация"/>
+	<credit name="Sascha 'Hated' Elzner" contribution="Руководитель контроля качества"/>
+	<credit name="Jan 'e-Zee' Beuth" contribution="Контроль качества"/>
+    <credit name="Will 'cheebsco' Gladue" contribution="Контроль качества"/>
+    <credit name="Ian 'Twigg' Hammond" contribution="Контроль качества"/>
+    <credit name="Charles 'unholyjoe' Harrison" contribution="Контроль качества"/>
+    <credit name="Melissa 'Wretched Dollie' Vincent" contribution="Контроль качества"/>
+    <credit name="Keith 'Kumquat' Ivey" contribution="Контроль качества"/>
+	<credit name="Shawn 'Malthis' Ketelhut" contribution="Контроль качества"/>
+	<credit name="Allan Reeves" contribution="Контроль качества"/>
+	<credit name="Terry 'Roland' Wood" contribution="Поддержка"/>
+	<credit name="Native Darkness Productions" contribution="Оригинальная музыка"/>
+	<credit name="Alexandra Portillo" contribution="Товаровед"/>
+	<credit name="Pat Heptig" contribution="Юрист"/>
+  </category>
+  
+    <category name="Бывшие Pimps:">
+    <credit name="Joe Riedel" contribution="Программист"/>
+    <credit name="Ryan Favale" contribution="Программист"/>	
+	<credit name="Ben Wagley" contribution="Анимация"/>
+	<credit name="Asia Hawkins" contribution="Художник"/>
+	<credit name="Daniel Wood" contribution="Художник"/>	
+	<credit name="Erik Avalos" contribution="Дизайнер/Сценарист"/>
+  </category>
+
+  <category name="Tip of the Fedora to:">
+    <credit name="FRANKIEonPCin1080p" contribution="Starting the News Party"/>
+    <credit name="RhinoCrunch" contribution="Amazing News Coverage"/>
+    <credit name="TheDevildogGamer" contribution="Top News Coverage"/>
+    <credit name="Team Epiphany" contribution="First Multiplayer Videos"/>
+    <credit name="Colby CheeZe" contribution="Awesome News Coverage"/>
+    <credit name="PSI Syndicate" contribution="Fantastic News Coverage"/>
+    <credit name="Fraghard" contribution="Live TwitchTv Coverage"/>
+    <credit name="GotEmBro" contribution="Live TwitchTv Coverage"/>
+    <credit name="Dakotaz" contribution="Live TwitchTv Coverage"/>
+    <credit name="Summit1G" contribution="Live TwitchTv Coverage"/>
+    <credit name="BrianTitan" contribution="Live TwitchTv Coverage"/>
+    <credit name="Curse Gaming" contribution="Online Game Wiki"/>
+    <credit name="Just Cause Productions" contribution="Motion Capture"/>
+    <credit name="Mark Musachi" contribution="Mocap Actor"/>
+    <credit name="Skeeter" contribution="Pimp Dog #1"/>
+    <credit name="Yager" contribution="That's how he Yaggy Rolls"/>
+    <credit name="Gaby Feldbaumer" contribution="Hospital Location Work"/>
+    <credit name="Norbert Feldbaumer" contribution="Hospital Location Work"/>
+	<credit name="Gamers Platoon" contribution="Testing and Server Support"/>
+    <credit name="Danny 'Hal 9000' Richardson" contribution="Tools Programming"/>
+  </category>
+
+  <category name="Внёсшие вклад">
+    <credit name="Tom 'Spider Zombie' Clark" contribution="ГОЛОВЫ МЕРТВЕЦОВ"/>
+    <blank/>
+    <credit name="Charles Goldsmith" contribution="ГРУППА ВЫЖИВШИХ"/>
+    <blank/>
+    <credit name="Mats Johansen" contribution="БОЛЬШОЙ ЧЕЛОВЕК НА ПУСТОШИ"/>
+    <credit name="Michael Zavislak" contribution="БОЛЬШОЙ ЧЕЛОВЕК НА ПУСТОШИ"/>
+    <credit name="Adam Knutsson" contribution="БОЛЬШОЙ ЧЕЛОВЕК НА ПУСТОШИ"/>
+    <credit name="Simon Seed" contribution="БОЛЬШОЙ ЧЕЛОВЕК НА ПУСТОШИ"/>
+    <credit name="Rowan Nagel" contribution="БОЛЬШОЙ ЧЕЛОВЕК НА ПУСТОШИ"/>
+    <credit name="Daniel David Kro Neckarski" contribution="БОЛЬШОЙ ЧЕЛОВЕК НА ПУСТОШИ"/>
+    <blank/>
+    <credit name="Nathan Iannuzzo" contribution="КРЕПОСТЬ"/>
+    <blank/>
+    <credit name="Ken Lau" contribution="ТЩЕСЛАВНЫЙ ВЫЖИВАЛЬЩИК"/>
+    <credit name="Benjamin Bruce Brett" contribution="ТЩЕСЛАВНЫЙ ВЫЖИВАЛЬЩИК"/>
+    <credit name="Lorien Green" contribution="ТЩЕСЛАВНЫЙ ВЫЖИВАЛЬЩИК"/>
+    <credit name="Derek Boday" contribution="ТЩЕСЛАВНЫЙ ВЫЖИВАЛЬЩИК"/>
+    <blank/>
+    <credit name="Brad Gagliano" contribution="ПОСЕЛЕНИЕ"/>
+    <blank/>
+    <credit name="Aaron Jensen" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Scott McMillin" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Phillip S Brumit Jr" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Robert Fermier" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Robert McCormick" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Brett D Zeigler" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Craig McLemore" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Bryce Lopez" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Agnar Sandvik" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Martin Schweizer" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="P.M. Heinrich" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Philippe Prevost Brisson" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Evan LaGrega" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Christoffer Hellenes" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Dan Borenstein" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Shane Brett" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Brandon Hyde" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Davis Smith" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Michael Gully" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="James Rippon" contribution="ПОСЕЛЕНЕЦ"/>
+    <credit name="Gary Taylor" contribution="ПОСЕЛЕНЕЦ"/>
+    <blank/>
+    <credit name="Dillon Salzer" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Trent Nairn" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Steven Bersia" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Mefflin R Bullis-Bates" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Garrick Eisele" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Thomas Hinton" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Tato Barbosa" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Sandra Powell" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Ryan Crow" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Soren Reber" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Christopher Richmond" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Jason Huskie" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Presso Reed" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Claude Wetz" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Ernest Malone" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Morgan Williams" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Torben Perkel" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Wayne Kenvyn" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Lewis Draycott" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Tyler Erickson" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Ian Barniskis" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Nick Contino" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Dario Rua" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Richard Thornbury" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Tobias Bennett" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Ashley Burnett" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Dennis S. Haug" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Trina Thornbury" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Jack R Canada" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Charina Kofod" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Jari Klemm" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Stephen McKean" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Bjørn Martin Hestnes" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Jesse McElveen" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Jonathan Brown" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Murray U Zaetl" contribution="АМИГО ПУСТОШИ"/>
+    <blank/>
+    <credit name="Charles Goldsmith" contribution="АМИГО ПУСТОШИ"/>
+    <credit name="Joshua L Shipman" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Kjetil Olsen Lye" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="David Sebestyen " contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Todd Johnson" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Kurtis Constantine" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Matt Bowen" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Emil Ness" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Corrado Luciani" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Manuel Moran" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Sean Leonard" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Tanner Hanus" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Marcel Raddatz" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Tyler Munson" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="James Stone" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Matthew Karnes" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Simon Katic" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Damon Ballard" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Stian Wærp Krøsgaard " contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Ryan Moran" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Maxim Popelyushko" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Malcolm Eden" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Alex Sederquest" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Bryan Pelley" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Joe Cincotta" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Clayton Lilly" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Christopher Wilson" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Douglas Watzig" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Simon Hickman" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="William Cline" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Stephen Aleksei Kac" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Jason Daniels" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Galit Alterwein" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="James C. Pieczynski" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Runar Bloch" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Zurick Barredo" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Fawn Colombatto" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Ryan Stuck" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Andrew Solorzano" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Maria Karlsen" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Lee Treat" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Chris Jones" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Jens Kindermann" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Sean Markie" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Maximilian Schüte" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <credit name="Joseph Marble" contribution="ОХОТНИК ЗА СОКРОВИЩАМИ"/>
+    <blank/>
+    <credit name="David Solch" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Jeremy Gilland" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="John Horton" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Amanda Kovacs" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Peyre Julien " contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Troy Hittner-Bennett" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Jeremy Henry" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Shawn Deprey" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Mathias Berli" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Markus Walter" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Bo Rasmussen" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Devon Mullane" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Nicholas John Marconi" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Calvin Richardson" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="David Johannhanwahr" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Tarrant Jorgensen" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Brard Nicolas" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Alec Tomasula" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Thomas J Skaanseng" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="David Quackenbush" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Markus Korpela" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Benjamin Mcclain" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Clint Dewald" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Tommy Hiro Hitoshi Linmo" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Dahlon Lyles" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Olivier Boucard" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Yan Hirschbühl" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Lauri Kahlavirta" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Daniel Wardle" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Adam Mullins" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Nicolas Winyard" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Christian Leth Michaelsen" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Philip" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Preston Cook" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Shaun Filer" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Shawn Hough" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Michael Stephen Findlater" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Tyler Larsen" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Christian Seier" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <credit name="Matthew Formigoni" contribution="ИССЛЕДОВАТЕЛЬ"/>
+    <blank/>
+    <credit name="Ke Chong Kuok" contribution="ДОБЫТЧИК"/>
+    <credit name="Kristian Larsen" contribution="ДОБЫТЧИК"/>
+    <credit name="David Walsh" contribution="ДОБЫТЧИК"/>
+    <credit name="Mitko Tschimev" contribution="ДОБЫТЧИК"/>
+    <credit name="Justin Marshall" contribution="ДОБЫТЧИК"/>
+    <credit name="Michael Highfill" contribution="ДОБЫТЧИК"/>
+    <credit name="Carter McKelvain" contribution="ДОБЫТЧИК"/>
+    <credit name="Martin Monson" contribution="ДОБЫТЧИК"/>
+    <credit name="Cesar Ayala" contribution="ДОБЫТЧИК"/>
+    <credit name="Jason Funk" contribution="ДОБЫТЧИК"/>
+    <credit name="David Ballard" contribution="ДОБЫТЧИК"/>
+    <credit name="Nic Mauro" contribution="ДОБЫТЧИК"/>
+    <credit name="Niklas Fransson" contribution="ДОБЫТЧИК"/>
+    <credit name="David Harris" contribution="ДОБЫТЧИК"/>
+    <credit name="Mark Andre Ramsay " contribution="ДОБЫТЧИК"/>
+    <credit name="Patrik Häggkvist" contribution="ДОБЫТЧИК"/>
+    <credit name="Jason Banfield " contribution="ДОБЫТЧИК"/>
+    <credit name="Alec Martsching" contribution="ДОБЫТЧИК"/>
+    <credit name="Torben Heidrich" contribution="ДОБЫТЧИК"/>
+    <credit name="Josh Blake" contribution="ДОБЫТЧИК"/>
+    <credit name="Debby Moody" contribution="ДОБЫТЧИК"/>
+    <blank/>
+    <credit name="Paul Moretti" contribution="КАРТОГРАФ"/>
+    <credit name="Liam Gavaghan" contribution="КАРТОГРАФ"/>
+    <credit name="Eric Johnson" contribution="КАРТОГРАФ"/>
+    <credit name="Andrew Muller" contribution="КАРТОГРАФ"/>
+    <credit name="Sean Sullivan" contribution="КАРТОГРАФ"/>
+    <credit name="Ethan E Ellis" contribution="КАРТОГРАФ"/>
+    <credit name="Sandro Bosshard" contribution="КАРТОГРАФ"/>
+    <credit name="Aji Daleni" contribution="КАРТОГРАФ"/>
+    <credit name="Victor Filipiak" contribution="КАРТОГРАФ"/>
+    <credit name="Eric Brawner" contribution="КАРТОГРАФ"/>
+    <credit name="Usmanov Georg" contribution="КАРТОГРАФ"/>
+    <credit name="Scott Partridge" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Shepherd" contribution="КАРТОГРАФ"/>
+    <credit name="Lee Riemer" contribution="КАРТОГРАФ"/>
+    <credit name="Mike Jackson" contribution="КАРТОГРАФ"/>
+    <credit name="Ron Dwyer" contribution="КАРТОГРАФ"/>
+    <credit name="Evin Carmack" contribution="КАРТОГРАФ"/>
+    <credit name="Micah Crowsey" contribution="КАРТОГРАФ"/>
+    <credit name="Ronald Neely" contribution="КАРТОГРАФ"/>
+    <credit name="Aaron Russo" contribution="КАРТОГРАФ"/>
+    <credit name="Matti Ahola" contribution="КАРТОГРАФ"/>
+    <credit name="Lance Kimberlin" contribution="КАРТОГРАФ"/>
+    <credit name="Damien Foletto" contribution="КАРТОГРАФ"/>
+    <credit name="Pádraig Kelly" contribution="КАРТОГРАФ"/>
+    <credit name="Anthony Cooper" contribution="КАРТОГРАФ"/>
+    <credit name="Sharri Reinhard" contribution="КАРТОГРАФ"/>
+    <credit name="Joe Heiser" contribution="КАРТОГРАФ"/>
+    <credit name="David Bethell" contribution="КАРТОГРАФ"/>
+    <credit name="Owen Barnes" contribution="КАРТОГРАФ"/>
+    <credit name="Nick Lloyd" contribution="КАРТОГРАФ"/>
+    <credit name="Dustin Powell" contribution="КАРТОГРАФ"/>
+    <credit name="Elliot Gilman" contribution="КАРТОГРАФ"/>
+    <credit name="Ethan Dwight Atwell" contribution="КАРТОГРАФ"/>
+    <credit name="Chris L'Etoile" contribution="КАРТОГРАФ"/>
+    <credit name="Nicholaus Chatelain" contribution="КАРТОГРАФ"/>
+    <credit name="Penn Foreman" contribution="КАРТОГРАФ"/>
+    <credit name="Todd Platts" contribution="КАРТОГРАФ"/>
+    <credit name="Anthony V Roy" contribution="КАРТОГРАФ"/>
+    <credit name="Brandon Hjella" contribution="КАРТОГРАФ"/>
+    <credit name="Jeromy Elizondo" contribution="КАРТОГРАФ"/>
+    <credit name="Chris Rose" contribution="КАРТОГРАФ"/>
+    <credit name="Mark Penix" contribution="КАРТОГРАФ"/>
+    <credit name="William Timothy Whaley" contribution="КАРТОГРАФ"/>
+    <credit name="Gary Sparks" contribution="КАРТОГРАФ"/>
+    <credit name="Brandon Coates" contribution="КАРТОГРАФ"/>
+    <credit name="Richard Bailey" contribution="КАРТОГРАФ"/>
+    <credit name="Kaelyn Takata" contribution="КАРТОГРАФ"/>
+    <credit name="Scott Dishnow" contribution="КАРТОГРАФ"/>
+    <credit name="Timothy Kasprzak" contribution="КАРТОГРАФ"/>
+    <credit name="Thomas Pesta" contribution="КАРТОГРАФ"/>
+    <credit name="Mark Poehler" contribution="КАРТОГРАФ"/>
+    <credit name="H Clayton Howell" contribution="КАРТОГРАФ"/>
+    <credit name="Florian Koller" contribution="КАРТОГРАФ"/>
+    <credit name="Matthew Hemby" contribution="КАРТОГРАФ"/>
+    <credit name="Matthew Clement" contribution="КАРТОГРАФ"/>
+    <credit name="Dane Elliott" contribution="КАРТОГРАФ"/>
+    <credit name="Bradley Canavan" contribution="КАРТОГРАФ"/>
+    <credit name="Matthias Haedrich" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Freiburghaus" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Strom" contribution="КАРТОГРАФ"/>
+    <credit name="Till Fischer" contribution="КАРТОГРАФ"/>
+    <credit name="Chris Booth" contribution="КАРТОГРАФ"/>
+    <credit name="David Andrich" contribution="КАРТОГРАФ"/>
+    <credit name="Tom Vanderperren" contribution="КАРТОГРАФ"/>
+    <credit name="Kevin Coombes" contribution="КАРТОГРАФ"/>
+    <credit name="Bernd Heil" contribution="КАРТОГРАФ"/>
+    <credit name="Nicholas Inman" contribution="КАРТОГРАФ"/>
+    <credit name="Kevin Seldomridge" contribution="КАРТОГРАФ"/>
+    <credit name="John Elliott" contribution="КАРТОГРАФ"/>
+    <credit name="Jerker Måntelius" contribution="КАРТОГРАФ"/>
+    <credit name="Ryan Searles" contribution="КАРТОГРАФ"/>
+    <credit name="Tim Landy" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Agbontaen" contribution="КАРТОГРАФ"/>
+    <credit name="Nolan Grill" contribution="КАРТОГРАФ"/>
+    <credit name="Matthew Cliffe" contribution="КАРТОГРАФ"/>
+    <credit name="Robert Chase" contribution="КАРТОГРАФ"/>
+    <credit name="Daniel Dieterich" contribution="КАРТОГРАФ"/>
+    <credit name="Mikael Olofsson" contribution="КАРТОГРАФ"/>
+    <credit name="Lars Kettermann" contribution="КАРТОГРАФ"/>
+    <credit name="Sergio Xisto" contribution="КАРТОГРАФ"/>
+    <credit name="Gary Elvin" contribution="КАРТОГРАФ"/>
+    <credit name="William Nash Moore" contribution="КАРТОГРАФ"/>
+    <credit name="Brandon Jennings" contribution="КАРТОГРАФ"/>
+    <credit name="Charles Pastor" contribution="КАРТОГРАФ"/>
+    <credit name="Matthew Williams" contribution="КАРТОГРАФ"/>
+    <credit name="Derek Tullock" contribution="КАРТОГРАФ"/>
+    <credit name="Tony Sass" contribution="КАРТОГРАФ"/>
+    <credit name="Dave Lee" contribution="КАРТОГРАФ"/>
+    <credit name="Dominic Christen" contribution="КАРТОГРАФ"/>
+    <credit name="Kennie Bøge Helmbo" contribution="КАРТОГРАФ"/>
+    <credit name="Kevin Pham" contribution="КАРТОГРАФ"/>
+    <credit name="Alec Greenbank" contribution="КАРТОГРАФ"/>
+    <credit name="Simon Varley" contribution="КАРТОГРАФ"/>
+    <credit name="Zach Weaver" contribution="КАРТОГРАФ"/>
+    <credit name="Brodie McDonald" contribution="КАРТОГРАФ"/>
+    <credit name="Harrison Burke" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Janson" contribution="КАРТОГРАФ"/>
+    <credit name="Nicholas Craig" contribution="КАРТОГРАФ"/>
+    <credit name="Samm Carbo" contribution="КАРТОГРАФ"/>
+    <credit name="Kyle Konsmo" contribution="КАРТОГРАФ"/>
+    <credit name="Stephan Czesch" contribution="КАРТОГРАФ"/>
+    <credit name="Bryan Springmeier" contribution="КАРТОГРАФ"/>
+    <credit name="Patrick Merritt" contribution="КАРТОГРАФ"/>
+    <credit name="Jared Gibson" contribution="КАРТОГРАФ"/>
+    <credit name="Jae Greene" contribution="КАРТОГРАФ"/>
+    <credit name="Jon Kirby" contribution="КАРТОГРАФ"/>
+    <credit name="Damien Mayne" contribution="КАРТОГРАФ"/>
+    <credit name="Ronald C Alman Jr." contribution="КАРТОГРАФ"/>
+    <credit name="Clayton Gherardini" contribution="КАРТОГРАФ"/>
+    <credit name="Marcus Tillmanns" contribution="КАРТОГРАФ"/>
+    <credit name="Christopher Hart" contribution="КАРТОГРАФ"/>
+    <credit name="Christian Panfalone" contribution="КАРТОГРАФ"/>
+    <credit name="Travis chalkley" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Fischer" contribution="КАРТОГРАФ"/>
+    <credit name="Ramiz Kljun" contribution="КАРТОГРАФ"/>
+    <credit name="Roar Mahle Stene" contribution="КАРТОГРАФ"/>
+    <credit name="Brandon Sayers" contribution="КАРТОГРАФ"/>
+    <credit name="Joseph Murray" contribution="КАРТОГРАФ"/>
+    <credit name="Martin Mämmi" contribution="КАРТОГРАФ"/>
+    <credit name="Andreas Stavaas" contribution="КАРТОГРАФ"/>
+    <credit name="Nate Bazar" contribution="КАРТОГРАФ"/>
+    <credit name="Tyler lockhart" contribution="КАРТОГРАФ"/>
+    <credit name="Thomas Hjelme" contribution="КАРТОГРАФ"/>
+    <credit name="Matthew M. Bickert" contribution="КАРТОГРАФ"/>
+    <credit name="Ian Yates" contribution="КАРТОГРАФ"/>
+    <credit name="John J Church Jr." contribution="КАРТОГРАФ"/>
+    <credit name="Mathias Wolf Holst" contribution="КАРТОГРАФ"/>
+    <credit name="Mikkel Holst Thomsen" contribution="КАРТОГРАФ"/>
+    <credit name="Rolf Hamlot" contribution="КАРТОГРАФ"/>
+    <credit name="Matt Burgess" contribution="КАРТОГРАФ"/>
+    <credit name="Lex van der Schans" contribution="КАРТОГРАФ"/>
+    <credit name="Daniel Strassner" contribution="КАРТОГРАФ"/>
+    <credit name="Morten Noedskou" contribution="КАРТОГРАФ"/>
+    <credit name="Tautvydas Marcinkevicius" contribution="КАРТОГРАФ"/>
+    <credit name="Adam Tofairdes" contribution="КАРТОГРАФ"/>
+    <credit name="Rob Mulally" contribution="КАРТОГРАФ"/>
+    <credit name="Nicholas Cox" contribution="КАРТОГРАФ"/>
+    <credit name="Noah Bathras" contribution="КАРТОГРАФ"/>
+    <credit name="Kristjón Magnússon" contribution="КАРТОГРАФ"/>
+    <credit name="Juho Linkala" contribution="КАРТОГРАФ"/>
+    <credit name="Thomas Harkless" contribution="КАРТОГРАФ"/>
+    <credit name="Cameron Flockhart" contribution="КАРТОГРАФ"/>
+    <credit name="Brandon Northway" contribution="КАРТОГРАФ"/>
+    <credit name="Levi Brinkkoeter" contribution="КАРТОГРАФ"/>
+    <credit name="Kenneth A Pierce" contribution="КАРТОГРАФ"/>
+    <credit name="Garrett Clemenson" contribution="КАРТОГРАФ"/>
+    <credit name="Brandon Jasper" contribution="КАРТОГРАФ"/>
+    <credit name="Carey Head" contribution="КАРТОГРАФ"/>
+    <credit name="Thomas Endter" contribution="КАРТОГРАФ"/>
+    <credit name="Jacob Crummy" contribution="КАРТОГРАФ"/>
+    <credit name="Shane Ware" contribution="КАРТОГРАФ"/>
+    <credit name="Tyler Slinkard" contribution="КАРТОГРАФ"/>
+    <credit name="Cole Pennock" contribution="КАРТОГРАФ"/>
+    <credit name="Alexander Hodgins" contribution="КАРТОГРАФ"/>
+    <credit name="Tim Cannon" contribution="КАРТОГРАФ"/>
+    <credit name="Jill Platts" contribution="КАРТОГРАФ"/>
+    <credit name="Brian Huth" contribution="КАРТОГРАФ"/>
+    <credit name="Alex Adkins" contribution="КАРТОГРАФ"/>
+    <credit name="Zachary Hill" contribution="КАРТОГРАФ"/>
+    <credit name="Thomas Wiksnes" contribution="КАРТОГРАФ"/>
+    <credit name="Stephen Reinier" contribution="КАРТОГРАФ"/>
+    <credit name="Brian Wildrick" contribution="КАРТОГРАФ"/>
+    <credit name="Nathan Howard" contribution="КАРТОГРАФ"/>
+    <credit name="Jacob R Behringer" contribution="КАРТОГРАФ"/>
+    <credit name="Declan Czajkowski" contribution="КАРТОГРАФ"/>
+    <credit name="Rachel Daniels" contribution="КАРТОГРАФ"/>
+    <credit name="Trevor Anderson" contribution="КАРТОГРАФ"/>
+    <credit name="John R Hawtin" contribution="КАРТОГРАФ"/>
+    <credit name="Gabriel D. Reyes" contribution="КАРТОГРАФ"/>
+    <credit name="James Hoover" contribution="КАРТОГРАФ"/>
+    <credit name="Andrew Schnepp" contribution="КАРТОГРАФ"/>
+    <credit name="Matt" contribution="КАРТОГРАФ"/>
+    <credit name="Peter Buttigieg" contribution="КАРТОГРАФ"/>
+    <credit name="Alejandro Alfredo Juarez" contribution="КАРТОГРАФ"/>
+    <credit name="Joel Archibald" contribution="КАРТОГРАФ"/>
+    <credit name="Tobey Isbell" contribution="КАРТОГРАФ"/>
+    <credit name="Lech Staniewicz" contribution="КАРТОГРАФ"/>
+    <credit name="Bryan Conrad" contribution="КАРТОГРАФ"/>
+    <credit name="Daniel Preston-Hatcher" contribution="КАРТОГРАФ"/>
+    <credit name="Christopher McCain" contribution="КАРТОГРАФ"/>
+    <credit name="Jonathan Fry" contribution="КАРТОГРАФ"/>
+    <credit name="Robin Olofsen" contribution="КАРТОГРАФ"/>
+    <credit name="Daniel Green" contribution="КАРТОГРАФ"/>
+    <credit name="Antonio Chen" contribution="КАРТОГРАФ"/>
+    <credit name="Holger Pedersen" contribution="КАРТОГРАФ"/>
+    <credit name="Aaron Morrissette" contribution="КАРТОГРАФ"/>
+    <credit name="Matthew Faulkner" contribution="КАРТОГРАФ"/>
+    <credit name="Doug Robson" contribution="КАРТОГРАФ"/>
+    <credit name="Adam Dean McCarty" contribution="КАРТОГРАФ"/>
+    <credit name="Jerry Mathes" contribution="КАРТОГРАФ"/>
+    <credit name="George Castaldo" contribution="КАРТОГРАФ"/>
+    <credit name="Aaron Domio" contribution="КАРТОГРАФ"/>
+    <credit name="François Côté" contribution="КАРТОГРАФ"/>
+    <credit name="Kester Tan" contribution="КАРТОГРАФ"/>
+    <credit name="Ben treby" contribution="КАРТОГРАФ"/>
+    <credit name="Jamie Heilman" contribution="КАРТОГРАФ"/>
+    <credit name="Rafael Trazzi Mazzola" contribution="КАРТОГРАФ"/>
+    <credit name="Frazer Skingley" contribution="КАРТОГРАФ"/>
+    <credit name="Carl Ripa" contribution="КАРТОГРАФ"/>
+    <credit name="Marcel Franke" contribution="КАРТОГРАФ"/>
+    <credit name="Andreas Krings" contribution="КАРТОГРАФ"/>
+    <credit name="Martin Danielsson" contribution="КАРТОГРАФ"/>
+    <credit name="Don Pedersen" contribution="КАРТОГРАФ"/>
+    <credit name="Colin R. Schultheis" contribution="КАРТОГРАФ"/>
+    <credit name="Kim Erik Hansen" contribution="КАРТОГРАФ"/>
+    <credit name="Ismat Dajani" contribution="КАРТОГРАФ"/>
+    <credit name="Rex G Frohlich" contribution="КАРТОГРАФ"/>
+    <credit name="Aaron Wilson" contribution="КАРТОГРАФ"/>
+    <credit name="Amy Bullock" contribution="КАРТОГРАФ"/>
+    <credit name="trevor madeley" contribution="КАРТОГРАФ"/>
+    <credit name="Jason Forster" contribution="КАРТОГРАФ"/>
+    <credit name="Rachael Majors" contribution="КАРТОГРАФ"/>
+    <credit name="Costa Roupas" contribution="КАРТОГРАФ"/>
+    <credit name="Travis Sybert" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Hayes" contribution="КАРТОГРАФ"/>
+    <credit name="Austin Steffens" contribution="КАРТОГРАФ"/>
+    <credit name="Jarrad Liam Sonnenberg" contribution="КАРТОГРАФ"/>
+    <credit name="Vesa Saarela" contribution="КАРТОГРАФ"/>
+    <credit name="Thor Pedersen" contribution="КАРТОГРАФ"/>
+    <credit name="Bill Swenson" contribution="КАРТОГРАФ"/>
+    <credit name="Jesper Lampe" contribution="КАРТОГРАФ"/>
+    <credit name="Robert Vaught" contribution="КАРТОГРАФ"/>
+    <credit name="Gary Flickinger" contribution="КАРТОГРАФ"/>
+    <credit name="Matt McAlister" contribution="КАРТОГРАФ"/>
+    <credit name="Louise Zemcevicius" contribution="КАРТОГРАФ"/>
+    <credit name="Peter Townsend" contribution="КАРТОГРАФ"/>
+    <credit name="Justin Cortellesi" contribution="КАРТОГРАФ"/>
+    <credit name="Lucas A Stratton" contribution="КАРТОГРАФ"/>
+    <credit name="Corey O'Bree" contribution="КАРТОГРАФ"/>
+    <credit name="Mike Brignall" contribution="КАРТОГРАФ"/>
+    <credit name="Samuel Marston" contribution="КАРТОГРАФ"/>
+    <credit name="Holly Wade" contribution="КАРТОГРАФ"/>
+    <credit name="Hans Christoffer Sandnes" contribution="КАРТОГРАФ"/>
+    <credit name="Christopher Carlsson" contribution="КАРТОГРАФ"/>
+    <credit name="Johannes Henriksson" contribution="КАРТОГРАФ"/>
+    <credit name="Luke Pickett" contribution="КАРТОГРАФ"/>
+    <credit name="Ben Watts" contribution="КАРТОГРАФ"/>
+    <credit name="Tobias Schaffner" contribution="КАРТОГРАФ"/>
+    <credit name="Matthew Myhra" contribution="КАРТОГРАФ"/>
+    <credit name="Thomas Kubitza" contribution="КАРТОГРАФ"/>
+    <credit name="Jonatan Gäskeby Mars" contribution="КАРТОГРАФ"/>
+    <credit name="Andrea Budris" contribution="КАРТОГРАФ"/>
+    <credit name="William R Parker III" contribution="КАРТОГРАФ"/>
+    <credit name="Andrew Fannin" contribution="КАРТОГРАФ"/>
+    <credit name="Kenneth Parker" contribution="КАРТОГРАФ"/>
+    <credit name="Mathew Prondzinski" contribution="КАРТОГРАФ"/>
+    <credit name="David Katz" contribution="КАРТОГРАФ"/>
+    <credit name="Kyle Priestly" contribution="КАРТОГРАФ"/>
+    <credit name="Eric Grand Maison" contribution="КАРТОГРАФ"/>
+    <credit name="Ryan Moore" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Brunson" contribution="КАРТОГРАФ"/>
+    <credit name="Ryan T Robinson" contribution="КАРТОГРАФ"/>
+    <credit name="Marcel From Duhrkoop" contribution="КАРТОГРАФ"/>
+    <credit name="Jason Hoeft" contribution="КАРТОГРАФ"/>
+    <credit name="Jack Waterreus" contribution="КАРТОГРАФ"/>
+    <credit name="Daniel Evans" contribution="КАРТОГРАФ"/>
+    <credit name="George Garle" contribution="КАРТОГРАФ"/>
+    <credit name="Florian von Spiczak" contribution="КАРТОГРАФ"/>
+    <credit name="Jason Bremer" contribution="КАРТОГРАФ"/>
+    <credit name="Mads Kristensen" contribution="КАРТОГРАФ"/>
+    <credit name="Greg Sexton" contribution="КАРТОГРАФ"/>
+    <credit name="Alex Thomas" contribution="КАРТОГРАФ"/>
+    <credit name="Karl Luker" contribution="КАРТОГРАФ"/>
+    <credit name="Ryan Julian Nuckolls" contribution="КАРТОГРАФ"/>
+    <credit name="Daniel Malmgren" contribution="КАРТОГРАФ"/>
+    <credit name="Peter Ledstrom" contribution="КАРТОГРАФ"/>
+    <credit name="Ian Naval" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Rios" contribution="КАРТОГРАФ"/>
+    <credit name="Paul Skerske" contribution="КАРТОГРАФ"/>
+    <credit name="Mike Posso" contribution="КАРТОГРАФ"/>
+    <credit name="Terry Phillips" contribution="КАРТОГРАФ"/>
+    <credit name="Bryan Richmond" contribution="КАРТОГРАФ"/>
+    <credit name="Per Kristian Brastad" contribution="КАРТОГРАФ"/>
+    <credit name="Matthew Carroll" contribution="КАРТОГРАФ"/>
+    <credit name="Thom Jonkman" contribution="КАРТОГРАФ"/>
+    <credit name="Brian Fargo" contribution="КАРТОГРАФ"/>
+    <credit name="Hunter Vaccaro" contribution="КАРТОГРАФ"/>
+    <credit name="David Coldwell" contribution="КАРТОГРАФ"/>
+    <credit name="Jacob Dean" contribution="КАРТОГРАФ"/>
+    <credit name="Gerhard Pitzl" contribution="КАРТОГРАФ"/>
+    <credit name="John Hunter" contribution="КАРТОГРАФ"/>
+    <credit name="David Burns" contribution="КАРТОГРАФ"/>
+    <credit name="Jeremiah Eerdmans" contribution="КАРТОГРАФ"/>
+    <credit name="Kevin Brown" contribution="КАРТОГРАФ"/>
+    <credit name="woody smith" contribution="КАРТОГРАФ"/>
+    <credit name="Allen Cooper" contribution="КАРТОГРАФ"/>
+    <credit name="Jonah Osmond" contribution="КАРТОГРАФ"/>
+    <credit name="Dale Maunder" contribution="КАРТОГРАФ"/>
+    <credit name="Ethan Miner" contribution="КАРТОГРАФ"/>
+    <credit name="Daniel McKenzie" contribution="КАРТОГРАФ"/>
+    <credit name="David Krause" contribution="КАРТОГРАФ"/>
+    <credit name="Daniel Skrzypnik" contribution="КАРТОГРАФ"/>
+    <credit name="Austin Reilly" contribution="КАРТОГРАФ"/>
+    <credit name="Larry Milton Lloyd Jr" contribution="КАРТОГРАФ"/>
+    <credit name="Brian Arthur Wurster" contribution="КАРТОГРАФ"/>
+    <credit name="Joseph marchione" contribution="КАРТОГРАФ"/>
+    <credit name="Elisha French" contribution="КАРТОГРАФ"/>
+    <credit name="Jacob Holder" contribution="КАРТОГРАФ"/>
+    <credit name="Robert Hendrix" contribution="КАРТОГРАФ"/>
+    <credit name="Brian Taylor" contribution="КАРТОГРАФ"/>
+    <credit name="Tony Lewis" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Watzko" contribution="КАРТОГРАФ"/>
+    <credit name="Ryan Wells" contribution="КАРТОГРАФ"/>
+    <credit name="Bryan Burns" contribution="КАРТОГРАФ"/>
+    <credit name="Paul Evans" contribution="КАРТОГРАФ"/>
+    <credit name="Matthew Donarico" contribution="КАРТОГРАФ"/>
+    <credit name="James R Pierson " contribution="КАРТОГРАФ"/>
+    <credit name="Avery Byington" contribution="КАРТОГРАФ"/>
+    <credit name="Brent Tinsley" contribution="КАРТОГРАФ"/>
+    <credit name="Christpher Carter" contribution="КАРТОГРАФ"/>
+    <credit name="Liam Quin" contribution="КАРТОГРАФ"/>
+    <credit name="Pirghaye Fabian" contribution="КАРТОГРАФ"/>
+    <credit name="Janis Kunze" contribution="КАРТОГРАФ"/>
+    <credit name="Joe Rutledge" contribution="КАРТОГРАФ"/>
+    <credit name="Joseph Scott Gibbs" contribution="КАРТОГРАФ"/>
+    <credit name="Robert DeBusk" contribution="КАРТОГРАФ"/>
+    <credit name="Lancien Aymeric" contribution="КАРТОГРАФ"/>
+    <credit name="Timothy Jeske" contribution="КАРТОГРАФ"/>
+    <credit name="Bryan Loroin" contribution="КАРТОГРАФ"/>
+    <credit name="Mikkel Bay Mortensen" contribution="КАРТОГРАФ"/>
+    <credit name="Aaron Galvin" contribution="КАРТОГРАФ"/>
+    <credit name="John Fecteau" contribution="КАРТОГРАФ"/>
+    <credit name="Haydn McAullay" contribution="КАРТОГРАФ"/>
+    <credit name="Ian M Feldt" contribution="КАРТОГРАФ"/>
+    <credit name="Travis dale Urick" contribution="КАРТОГРАФ"/>
+    <credit name="Susan D Ueffing" contribution="КАРТОГРАФ"/>
+    <credit name="Dennis McDonald" contribution="КАРТОГРАФ"/>
+    <credit name="Willy HAAS" contribution="КАРТОГРАФ"/>
+    <credit name="Joshua Helmer" contribution="КАРТОГРАФ"/>
+    <credit name="Mathieu Bercher" contribution="КАРТОГРАФ"/>
+    <credit name="Casey Cook" contribution="КАРТОГРАФ"/>
+    <credit name="Ryan Page" contribution="КАРТОГРАФ"/>
+    <credit name="David Stafford" contribution="КАРТОГРАФ"/>
+    <credit name="Cody Wood" contribution="КАРТОГРАФ"/>
+    <credit name="Bryce McBane" contribution="КАРТОГРАФ"/>
+    <credit name="rob lawerence" contribution="КАРТОГРАФ"/>
+    <credit name="Cameron Royer" contribution="КАРТОГРАФ"/>
+    <credit name="Julio Andres Castaneda" contribution="КАРТОГРАФ"/>
+    <credit name="Will Short" contribution="КАРТОГРАФ"/>
+    <credit name="Sean Mason" contribution="КАРТОГРАФ"/>
+    <credit name="Matthew Moreni" contribution="КАРТОГРАФ"/>
+    <credit name="Kevin Holt" contribution="КАРТОГРАФ"/>
+    <credit name="Andrew Edwards" contribution="КАРТОГРАФ"/>
+    <credit name="Thomas Deylen " contribution="КАРТОГРАФ"/>
+    <credit name="Bradley Duerling" contribution="КАРТОГРАФ"/>
+    <credit name="Franklin Curtis" contribution="КАРТОГРАФ"/>
+    <credit name="Josh Russell" contribution="КАРТОГРАФ"/>
+    <credit name="Antonio Balac" contribution="КАРТОГРАФ"/>
+    <credit name="Ben Weinhagen" contribution="КАРТОГРАФ"/>
+    <credit name="Jordan Lawson" contribution="КАРТОГРАФ"/>
+    <credit name="Cory Hammer" contribution="КАРТОГРАФ"/>
+    <credit name="Zachary Stratton" contribution="КАРТОГРАФ"/>
+    <credit name="Shane Brooks" contribution="КАРТОГРАФ"/>
+    <credit name="Caleb Judge" contribution="КАРТОГРАФ"/>
+    <credit name="Lord Demo" contribution="КАРТОГРАФ"/>
+    <credit name="Brian J Africk" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Africk" contribution="КАРТОГРАФ"/>
+    <credit name="Ashley McGavin" contribution="КАРТОГРАФ"/>
+    <credit name="Moses Velasco" contribution="КАРТОГРАФ"/>
+    <credit name="Evan Turske" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Grey" contribution="КАРТОГРАФ"/>
+    <credit name="Travis Holzer" contribution="КАРТОГРАФ"/>
+    <credit name="Gabriel Balaich" contribution="КАРТОГРАФ"/>
+    <credit name="Eric Stones" contribution="КАРТОГРАФ"/>
+    <credit name="Adrian Prinsloo" contribution="КАРТОГРАФ"/>
+    <credit name="Benjamin Davne" contribution="КАРТОГРАФ"/>
+    <credit name="Dryson Crum" contribution="КАРТОГРАФ"/>
+    <credit name="Bret Colloff" contribution="КАРТОГРАФ"/>
+    <credit name="Arden Roberts" contribution="КАРТОГРАФ"/>
+    <credit name="Drew Kurz" contribution="КАРТОГРАФ"/>
+    <credit name="Stephen Argent" contribution="КАРТОГРАФ"/>
+    <credit name="Cameron Hamad" contribution="КАРТОГРАФ"/>
+    <credit name="Jon Are Hellevangsdal" contribution="КАРТОГРАФ"/>
+    <credit name="Brian Hires" contribution="КАРТОГРАФ"/>
+    <credit name="Gustav Wedholm" contribution="КАРТОГРАФ"/>
+    <credit name="Yankton Robins" contribution="КАРТОГРАФ"/>
+    <credit name="Xulu Zhang" contribution="КАРТОГРАФ"/>
+    <credit name="Brad Senff" contribution="КАРТОГРАФ"/>
+    <credit name="Rob McConnell " contribution="КАРТОГРАФ"/>
+    <credit name="James Herbert" contribution="КАРТОГРАФ"/>
+    <credit name="Christian Raad" contribution="КАРТОГРАФ"/>
+    <credit name="Eric Bachelor" contribution="КАРТОГРАФ"/>
+    <credit name="Jack Klein" contribution="КАРТОГРАФ"/>
+    <credit name="Lukas Platt" contribution="КАРТОГРАФ"/>
+    <credit name="Caleb Withers" contribution="КАРТОГРАФ"/>
+    <credit name="Jason Caffery" contribution="КАРТОГРАФ"/>
+    <credit name="Anthony Gallegos" contribution="КАРТОГРАФ"/>
+    <credit name="Zachary Keebler McGriff" contribution="КАРТОГРАФ"/>
+    <credit name="Daniel Rose" contribution="КАРТОГРАФ"/>
+    <credit name="Scott Zupancic" contribution="КАРТОГРАФ"/>
+    <credit name="Aaron Naone-Blau" contribution="КАРТОГРАФ"/>
+    <credit name="Zane Garner" contribution="КАРТОГРАФ"/>
+    <credit name="Amintore Peluso" contribution="КАРТОГРАФ"/>
+    <credit name="Bernd Ertingshausen" contribution="КАРТОГРАФ"/>
+    <credit name="Ethan" contribution="КАРТОГРАФ"/>
+    <credit name="Stuart Abbiss" contribution="КАРТОГРАФ"/>
+    <credit name="Rapaz Thierry" contribution="КАРТОГРАФ"/>
+    <credit name="Adam Mills" contribution="КАРТОГРАФ"/>
+    <credit name="Dustin Vollmar" contribution="КАРТОГРАФ"/>
+    <credit name="Martyn Bell" contribution="КАРТОГРАФ"/>
+    <credit name="Michael tungate" contribution="КАРТОГРАФ"/>
+    <credit name="Jonathan Gibbins" contribution="КАРТОГРАФ"/>
+    <credit name="Tylar Overturf" contribution="КАРТОГРАФ"/>
+    <credit name="Mikael Österholm" contribution="КАРТОГРАФ"/>
+    <credit name="Marcus P Ballard" contribution="КАРТОГРАФ"/>
+    <credit name="Chris Allen" contribution="КАРТОГРАФ"/>
+    <credit name="Emmanuel Granados" contribution="КАРТОГРАФ"/>
+    <credit name="Otaku Halo" contribution="КАРТОГРАФ"/>
+    <credit name="Charles Moon" contribution="КАРТОГРАФ"/>
+    <credit name="Devon DiGangi" contribution="КАРТОГРАФ"/>
+    <credit name="Lauri Heinonen" contribution="КАРТОГРАФ"/>
+    <credit name="Timothy Crawford" contribution="КАРТОГРАФ"/>
+    <credit name="Michael Maguire" contribution="КАРТОГРАФ"/>
+    <credit name="Joey Hübner" contribution="КАРТОГРАФ"/>
+    <credit name="Paul Falzoni Lee" contribution="КАРТОГРАФ"/>
+    <credit name="Timo Herwig" contribution="КАРТОГРАФ"/>
+    <credit name="Marc-Anton Alexander Ohr" contribution="КАРТОГРАФ"/>
+    <credit name="Gary Venable" contribution="КАРТОГРАФ"/>
+    <credit name="Róar Salberg Olsen" contribution="КАРТОГРАФ"/>
+    <credit name="Brandon Dorr" contribution="КАРТОГРАФ"/>
+    <credit name="Jason Ward" contribution="КАРТОГРАФ"/>
+    <credit name="Amr Helmi" contribution="КАРТОГРАФ"/>
+    <credit name="Tyler Crow" contribution="КАРТОГРАФ"/>
+  </category>
+
+
+  <category name="Почти конец">
+    <credit center_text="'Почему вы всё ещё здесь?'"/>
+    <blank/>
+    <credit center_text="'Вы должно быть зомби!'"/>
+    <blank/>
+    <credit center_text="'Вы должны играть в эту игру!'"/>
+    <blank/>
+    <credit center_text="Навезган ждёт"/>
+    <blank/>
+    <credit center_text="Вы всё ещё круты"/>
+    <credit center_text="The Fun Pimps"/>
+    <blank/>
+    <credit center_text="'Где мой ключ, братан?'"/>
+    <credit center_text="'Где мой ключ?'"/>
+    <blank/>
+  </category>
+
+</credits>
