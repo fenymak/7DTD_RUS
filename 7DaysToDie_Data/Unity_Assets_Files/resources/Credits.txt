@@ -11,7 +11,7 @@
     <credit center_text="Мы очень благодарны за наши успехи и постоянную поддержку нашим фанатам,"/>
     <credit center_text="семьям и Богу, которые были с нами на каждом шагу этого долгого пути."/>
     <blank/>
-    <credit center_text="...Но некоторые этого не сделали, и мы не забудем!"/>
+    <credit center_text="...но, к сожалению, не всем было суждено пройти его до конца!"/>
 	<blank/>
 	<blank/>
   </category>
@@ -78,27 +78,27 @@
 	<credit name="Erik Avalos" contribution="Дизайнер/Сценарист"/>
   </category>
 
-  <category name="Tip of the Fedora to:">
-    <credit name="FRANKIEonPCin1080p" contribution="Starting the News Party"/>
-    <credit name="RhinoCrunch" contribution="Amazing News Coverage"/>
-    <credit name="TheDevildogGamer" contribution="Top News Coverage"/>
-    <credit name="Team Epiphany" contribution="First Multiplayer Videos"/>
-    <credit name="Colby CheeZe" contribution="Awesome News Coverage"/>
-    <credit name="PSI Syndicate" contribution="Fantastic News Coverage"/>
-    <credit name="Fraghard" contribution="Live TwitchTv Coverage"/>
-    <credit name="GotEmBro" contribution="Live TwitchTv Coverage"/>
-    <credit name="Dakotaz" contribution="Live TwitchTv Coverage"/>
-    <credit name="Summit1G" contribution="Live TwitchTv Coverage"/>
-    <credit name="BrianTitan" contribution="Live TwitchTv Coverage"/>
-    <credit name="Curse Gaming" contribution="Online Game Wiki"/>
-    <credit name="Just Cause Productions" contribution="Motion Capture"/>
-    <credit name="Mark Musachi" contribution="Mocap Actor"/>
-    <credit name="Skeeter" contribution="Pimp Dog #1"/>
-    <credit name="Yager" contribution="That's how he Yaggy Rolls"/>
-    <credit name="Gaby Feldbaumer" contribution="Hospital Location Work"/>
-    <credit name="Norbert Feldbaumer" contribution="Hospital Location Work"/>
-	<credit name="Gamers Platoon" contribution="Testing and Server Support"/>
-    <credit name="Danny 'Hal 9000' Richardson" contribution="Tools Programming"/>
+  <category name="Выражаем благодарность:">
+    <credit name="FRANKIEonPCin1080p" contribution="Запуск новостной ленты"/>
+    <credit name="RhinoCrunch" contribution="Освещение удивительных новостей"/>
+    <credit name="TheDevildogGamer" contribution="Освещение главных новостей"/>
+    <credit name="Team Epiphany" contribution="Первые видео сетевой игры"/>
+    <credit name="Colby CheeZe" contribution="Освещение потрясающих новостей"/>
+    <credit name="PSI Syndicate" contribution="Освещение фантастических новостей"/>
+    <credit name="Fraghard" contribution="Освещение на TwitchTv"/>
+    <credit name="GotEmBro" contribution="Освещение на TwitchTv"/>
+    <credit name="Dakotaz" contribution="Освещение на TwitchTv"/>
+    <credit name="Summit1G" contribution="Освещение на TwitchTv"/>
+    <credit name="BrianTitan" contribution="Освещение на TwitchTv"/>
+    <credit name="Curse Gaming" contribution="Сетевая википедия по игре"/>
+    <credit name="Just Cause Productions" contribution="Захват движения"/>
+    <credit name="Mark Musachi" contribution="Актёр для захвата движений"/>
+    <credit name="Skeeter" contribution="Пёсик Pimp №1"/>
+    <credit name="Yager" contribution="Вот как он Yaggy Rolls"/>
+    <credit name="Gaby Feldbaumer" contribution="Работа над локацией госпиталя"/>
+    <credit name="Norbert Feldbaumer" contribution="Работа над локацией госпиталя"/>
+    <credit name="Gamers Platoon" contribution="Поддержка серверов и тестирования"/>
+    <credit name="Danny 'Hal 9000' Richardson" contribution="Инструменты программирования"/>
   </category>
 
   <category name="Внёсшие вклад">
