@@ -274,9 +274,9 @@
 
 		<rect depth="2" name="searchControls" width="597" height="43" pos="3,-49">
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="603" height="52" color="[black]" type="sliced" fillcenter="false"  />
-			<button depth="4" name="all" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_shopping_cart" pivot="center" tooltip="All" sound="[paging_click]" selected="true" />
+			<button depth="4" name="all" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_shopping_cart" pivot="center" tooltip="Всё" sound="[paging_click]" selected="true" />
 			<button depth="4" name="blocks" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_all_blocks" pivot="center" tooltip="All Blocks" tooltip_key="lblAllBlocks" sound="[paging_click]" />
-			<button depth="4" name="items" style="icon30px, press" pos="108,-22" sprite="ui_game_symbol_backpack" pivot="center" tooltip="All Items" sound="[paging_click]" />
+			<button depth="4" name="items" style="icon30px, press" pos="108,-22" sprite="ui_game_symbol_backpack" pivot="center" tooltip="Все предметы" sound="[paging_click]" />
 
 			<button depth="4" name="simplepickup" style="icon30px, press, hover" pos="169,-22" sprite="ui_game_symbol_hand" defaultcolor="[disabledLabelColor]" pivot="center" tooltip="Simple Pickup" sound="[paging_click]" />
 			<button depth="4" name="devblocks" style="icon30px, press, hover" pos="212,-22" sprite="ui_game_symbol_computer" defaultcolor="[disabledLabelColor]" pivot="center" tooltip="Dev Blocks" sound="[paging_click]" console_enabled="false" />
@@ -442,8 +442,8 @@
 
 		<rect depth="2" name="searchControls" width="448" height="43" pos="152,0" visible="{showstatanddescription}">
 			<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
-			<button depth="4" name="statButton" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_ping" pivot="center" tooltip="Stats" sound="[paging_click]" selected="true" />
-			<button depth="4" name="descriptionButton" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_book" pivot="center" tooltip="Description" sound="[paging_click]" />
+			<button depth="4" name="statButton" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_ping" pivot="center" tooltip="Характеристики" sound="[paging_click]" selected="true" />
+			<button depth="4" name="descriptionButton" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_book" pivot="center" tooltip="Описание" sound="[paging_click]" />
 		</rect>
 		
 			<rect depth="1" pos="153,0" name="description" width="447" height="271" visible="{showonlydescription}">
@@ -793,9 +793,9 @@
 		<rect depth="2" name="searchControls" width="327" height="43" pos="0,-46">
 		<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="327" height="43" color="[black]" type="sliced" fillcenter="false" />
 			<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
-			<button depth="4" name="characterButton" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_character" pivot="center" tooltip="Description" sound="[paging_click]" selected="true" />
-			<button depth="4" name="statButton" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_ping" pivot="center" tooltip="Stats" sound="[paging_click]" />
-			<button depth="4" name="coreStatButton" style="icon30px, press" pos="108,-22" sprite="ui_game_symbol_trophy" pivot="center" tooltip="Stats" sound="[paging_click]" />
+			<button depth="4" name="characterButton" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_character" pivot="center" tooltip="Описание" sound="[paging_click]" selected="true" />
+			<button depth="4" name="statButton" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_ping" pivot="center" tooltip="Статистика" sound="[paging_click]" />
+			<button depth="4" name="coreStatButton" style="icon30px, press" pos="108,-22" sprite="ui_game_symbol_trophy" pivot="center" tooltip="Статистика" sound="[paging_click]" />
 
 
 			<!-- <panel pos="220,0" width="104" height="43" disableautobackground="true"> -->
