@@ -274,9 +274,9 @@
 
 		<rect depth="2" name="searchControls" width="597" height="43" pos="3,-49">
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="603" height="52" color="[black]" type="sliced" fillcenter="false"  />
-			<button depth="4" name="all" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_shopping_cart" pivot="center" tooltip="Всё" sound="[paging_click]" selected="true" />
+			<button depth="4" name="all" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_shopping_cart" pivot="center" tooltip="All" sound="[paging_click]" selected="true" />
 			<button depth="4" name="blocks" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_all_blocks" pivot="center" tooltip="All Blocks" tooltip_key="lblAllBlocks" sound="[paging_click]" />
-			<button depth="4" name="items" style="icon30px, press" pos="108,-22" sprite="ui_game_symbol_backpack" pivot="center" tooltip="Все предметы" sound="[paging_click]" />
+			<button depth="4" name="items" style="icon30px, press" pos="108,-22" sprite="ui_game_symbol_backpack" pivot="center" tooltip="All Items" sound="[paging_click]" />
 
 			<button depth="4" name="simplepickup" style="icon30px, press, hover" pos="169,-22" sprite="ui_game_symbol_hand" defaultcolor="[disabledLabelColor]" pivot="center" tooltip="Simple Pickup" sound="[paging_click]" />
 			<button depth="4" name="devblocks" style="icon30px, press, hover" pos="212,-22" sprite="ui_game_symbol_computer" defaultcolor="[disabledLabelColor]" pivot="center" tooltip="Dev Blocks" sound="[paging_click]" console_enabled="false" />
@@ -442,8 +442,8 @@
 
 		<rect depth="2" name="searchControls" width="448" height="43" pos="152,0" visible="{showstatanddescription}">
 			<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
-			<button depth="4" name="statButton" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_ping" pivot="center" tooltip="Характеристики" sound="[paging_click]" selected="true" />
-			<button depth="4" name="descriptionButton" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_book" pivot="center" tooltip="Описание" sound="[paging_click]" />
+			<button depth="4" name="statButton" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_ping" pivot="center" tooltip="Stats" sound="[paging_click]" selected="true" />
+			<button depth="4" name="descriptionButton" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_book" pivot="center" tooltip="Description" sound="[paging_click]" />
 		</rect>
 		
 			<rect depth="1" pos="153,0" name="description" width="447" height="271" visible="{showonlydescription}">
@@ -793,9 +793,9 @@
 		<rect depth="2" name="searchControls" width="327" height="43" pos="0,-46">
 		<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="327" height="43" color="[black]" type="sliced" fillcenter="false" />
 			<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
-			<button depth="4" name="characterButton" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_character" pivot="center" tooltip="Описание" sound="[paging_click]" selected="true" />
-			<button depth="4" name="statButton" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_ping" pivot="center" tooltip="Статистика" sound="[paging_click]" />
-			<button depth="4" name="coreStatButton" style="icon30px, press" pos="108,-22" sprite="ui_game_symbol_trophy" pivot="center" tooltip="Статистика" sound="[paging_click]" />
+			<button depth="4" name="characterButton" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_character" pivot="center" tooltip="Description" sound="[paging_click]" selected="true" />
+			<button depth="4" name="statButton" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_ping" pivot="center" tooltip="Stats" sound="[paging_click]" />
+			<button depth="4" name="coreStatButton" style="icon30px, press" pos="108,-22" sprite="ui_game_symbol_trophy" pivot="center" tooltip="Stats" sound="[paging_click]" />
 
 
 			<!-- <panel pos="220,0" width="104" height="43" disableautobackground="true"> -->
@@ -847,13 +847,13 @@
 				<sprite depth="8" sprite="menu_empty3px" height="33" color="[black]" type="sliced" fillcenter="false" />
 				<sprite depth="1" color="[darkestGrey]" pos="0,-1" height="31" type="sliced" />
 				<label depth="3" pos="15,-3" width="290" font_size="26" text="{playerfoodtitle|once}" justify="left" color="[white]" />
-				<label depth="3" pos="15,-3" width="290" font_size="26" text="{playerfood}%" justify="right" color="[selectedColor]" />
+				<label depth="3" pos="15,-3" width="290" font_size="26" text="{playermodifiedcurrentfood}/{playerfoodmax}" justify="right" color="[selectedColor]" />
 			</rect>
 			<rect pos="0,-90" height="33">
 				<sprite depth="8" sprite="menu_empty3px" height="33"  color="[black]" type="sliced" fillcenter="false" />
 				<sprite depth="1" color="[darkGrey]" type="sliced" />
 				<label depth="3" pos="15,-3" width="290" font_size="26" text="{playerwatertitle|once}" justify="left" color="[white]" />
-				<label depth="3" pos="15,-3" width="290" font_size="26" text="{playerwater}%" justify="right" color="[selectedColor]" />
+				<label depth="3" pos="15,-3" width="290" font_size="26" text="{playermodifiedcurrentwater}/{playerwatermax}" justify="right" color="[selectedColor]" />
 			</rect>
 			<rect pos="0,-120" height="33">
 				<sprite depth="8" sprite="menu_empty3px" height="33" color="[black]" type="sliced" fillcenter="false" />
@@ -1456,18 +1456,18 @@
 			</rect>
 
 			<rect depth="1" name="level" width="70" height="46" pos="173,-6">
-				<label depth="1" name="text" pos="0,-50" height="56" text="LEVEL" text_key="xuiLevel" font_size="26" justify="center"/>
+				<label depth="1" name="text" pos="0,-50" height="56" text="LEVEL" text_key="xuiLevel" font_size="24" justify="center"/>
 			</rect>
 
 			<rect depth="1" name="gamestage" width="100" height="46" pos="243,-6">
-				<label depth="1" name="text" pos="0,-50" height="56" text="GAME STAGE" text_key="xuiGameStage" font_size="26" justify="center"/>
+				<label depth="1" name="text" pos="0,-50" height="56" text="GAME STAGE" text_key="GAME STAGE" font_size="24" justify="center"/>
 			</rect>
 
 			<rect depth="1" name="party" width="70" height="46" pos="361,-6">
-				<label depth="1" name="text" pos="0,-50" height="56" text="PARTY" text_key="xuiParty" font_size="26" justify="center"/>
+				<label depth="1" name="text" pos="0,-50" height="56" text="PARTY" text_key="Party" font_size="24" justify="center"/>
 			</rect>
 
-			<rect depth="1" name="allies" width="80" height="46" pos="434,-6">
+			<rect depth="1" name="allies" width="70" height="46" pos="439,-6">
 				<label depth="1" name="text" pos="0,-50" height="28" text="ALLIES" text_key="xuiAllies" font_size="26" justify="center"/>
 			</rect>
 
@@ -1491,12 +1491,12 @@
 				<!-- <label depth="1" name="text" pos="0,-50" height="28" text="PARTY" text_key="Party" font_size="26" justify="center"/> -->
 			<!-- </rect> -->
 
-			<rect depth="1" name="zombieKills" width="110" height="46" pos="765,-6">
-				<label depth="1" name="text" pos="0,-50" height="28" text="ZOMBIE KILLS" text_key="xuiEnemyKills" font_size="26" justify="center"/>
+			<rect depth="1" name="zombieKills" width="100" height="46" pos="770,-6">
+				<label depth="1" name="text" pos="0,-50" height="28" text="ZOMBIE KILLS" text_key="ENEMY KILLS" font_size="26" justify="center"/>
 			</rect>
 
-			<rect depth="1" name="playerKills" width="130" height="46" pos="898,-6">
-				<label depth="1" name="text" pos="0,-50" height="56" text="PLAYER KILLS" text_key="xuiPlayerKills" font_size="26" justify="center"/>
+			<rect depth="1" name="playerKills" width="100" height="46" pos="913,-6">
+				<label depth="1" name="text" pos="0,-50" height="56" text="PLAYER KILLS" text_key="xuiPlayerKills" font_size="24" justify="center"/>
 			</rect>
 
 			<rect depth="1" name="deaths" width="80" height="86" pos="1056,-6">
@@ -2288,7 +2288,7 @@
 	<!--#$-IGS END.-$#-->
 		<panel name="header" pos="3,0" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="1" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_quest"/>
-			<label style="header.name" text="SHARED QUESTS" text_key="xuiSharedQuests" />
+			<label style="header.name" text="SHARED QUESTS" />
 		</panel>
 
 		<rect name="content" depth="0" pos="0,-43" height="464">
@@ -2296,9 +2296,9 @@
 			<rect depth="3" name="searchControls" width="450" height="43" pos="6,-6">
 				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="450" height="46" color="[black]" type="sliced" fillcenter="false" />
 
-				<button depth="1" name="acceptBtn" style="icon32px, press, hover" pivot="center" pos="26,-21" sprite="ui_game_symbol_check" tooltip="Accept Quest" tooltip_key="lblAcceptQuest" sound="[paging_click]" />
+				<button depth="1" name="acceptBtn" style="icon32px, press, hover" pivot="center" pos="26,-21" sprite="ui_game_symbol_check" tooltip="Accept Quest" sound="[paging_click]" />
 				<button depth="1" name="showOnMapBtn" style="icon32px, press, hover" pivot="center" pos="69,-21" sprite="ui_game_symbol_map" tooltip="Show on Map" tooltip_key="lblShowOnMap" sound="[paging_click]" />
-				<button depth="1" name="questRemoveBtn" style="icon32px, press, hover" pivot="center" pos="112,-21" sprite="ui_game_symbol_x" tooltip="Cancel Quest" tooltip_key="lblCancelQuest" sound="[paging_click]" />
+				<button depth="1" name="questRemoveBtn" style="icon32px, press, hover" pivot="center" pos="112,-21" sprite="ui_game_symbol_x" tooltip="Cancel Quest" sound="[paging_click]" />
 
 				<sprite color="[darkGrey]" type="sliced" width="446" pos="-1,0" />
 				<!--#$-IGS BEGIN: Hiding search field on consoles. -$#-->
@@ -2338,7 +2338,7 @@
 		<rect name="content" pos="0,-46" height="266" depth="1">
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="653" height="266" color="[black]" type="sliced" fillcenter="false" />
 			<sprite color="[darkGrey]" type="sliced" />
-			<label depth="3" name="descriptionText" pos="8,-8" text="{questdescription}" width="630" height="205" font_size="25" overflow="resizeheight" />
+			<label depth="3" name="descriptionText" pos="8,-8" text="{questdescription}" width="630" height="205" font_size="28" overflow="resizeheight" />
 			<rect visible="{showempty}">
 				<label pos="0,-120" depth="3" name="descriptionText" width="100%" height="65" text="DESCRIPTION NOT AVAILABLE AT THIS TIME." text_key="xuiDescriptionNotAvailable" justify="center" font_size="28" />
 			</rect>
@@ -2444,7 +2444,7 @@
 		</panel>
 		<panel name="content" pos="0,-46" height="329" depth="1" backgroundcolor="[darkGrey]" bordercolor="[black]" borderthickness="3" pivot="center">
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="329" color="[black]" type="sliced" fillcenter="false" />
-			<label depth="3" name="descriptionText" pos="6,-5" text="{questoffer}" width="590" font_size="29" overflow="resizeheight" />
+			<label depth="3" name="descriptionText" pos="6,-5" text="{questoffer}" width="590" font_size="30" overflow="resizeheight" />
 
 			<!-- <button pos="200,-220" depth="2" name="acceptButton" style="icon32px" sprite="ui_game_symbol_check" defaultcolor="[green]"/>
 			<button pos="400,-220" depth="2" name="declineButton" style="icon32px" sprite="ui_game_symbol_x" defaultcolor="[red]"/> -->
@@ -2511,14 +2511,14 @@
 	<window name="windowQuestTurnInRewards" width="653" height="454" panel="Left" cursor_area="true" controller="QuestTurnInRewardsWindow" > <!--item_format="{0}: [DECEA3]{1}[-]" item_bonus_format="{0}: [DECEA3]{1}[-] ([DECEA3]{2}[-] {3})"-->
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_treasure"/>
-			<label style="header.name" text="REWARDS" text_key="xuiRewards" width="500" />
+			<label style="header.name" text="REWARDS" width="500" />
 			<label depth="2" pos="545,-8" width="100" height="28" text="{sharedbyname}" color="[lightGrey]" justify="right" upper_case="true" />
 		</panel>
 		<rect name="content" pos="0,-46" height="70" depth="1">
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="653" height="418" color="[black]" type="sliced" fillcenter="false" />
 			<sprite color="[darkGrey]" type="sliced" />
-			<label pos="10,-6" depth="3" height="30" text="ОПЫТ: {questxpreward}" font_size="28" visible="{questhasxpreward}" />
-			<label pos="10,-32" depth="3" height="30" text="ПРЕДМЕТЫ: {questitemrewards}" font_size="28" visible="{questhasitemrewards}" />
+			<label pos="10,-6" depth="3" height="30" text="XP: {questxpreward}" font_size="28" visible="{questhasxpreward}" />
+			<label pos="10,-32" depth="3" height="30" text="ITEMS: {questitemrewards}" font_size="28" visible="{questhasitemrewards}" />
 			<!-- <label pos="10,-58" depth="3" height="30" text="TRADERS REP: [DECEA3]+35[-] ([DECEA3]+3[-] INFLUENCE) " font_size="28" visible="false" /> -->
 			<!-- <label pos="10,-84" depth="3" height="30" text="BANDITS REP: [DECEA3]-17[-] ([DECEA3]+2[-] INFLUENCE) " font_size="28" visible="false" /> -->
 		</rect>

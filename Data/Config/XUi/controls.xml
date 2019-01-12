@@ -574,7 +574,7 @@
 			
 			<sprite name="itemIcon" depth="4" width="70" height="50" atlas="{partatlas}" sprite="{particon}" pos="330,-30" pivot="center" color="{particoncolor}" foregroundlayer="true" />
 			
-			<label depth="4" pos="16,-16" width="350" height="28" text="EMPTY MODIFIER SLOT" text_key="xuiEmptyModSlot" font_size="26" justify="center" visible="{emptyvisible}" />
+			<label depth="4" pos="16,-16" width="350" height="28" text="EMPTY MODIFIER SLOT" font_size="26" justify="center" visible="{emptyvisible}" />
 		</rect>
 	</vehicle_part_slot>
 	
@@ -591,7 +591,7 @@
 			
 			<sprite name="itemIcon" depth="4" width="70" height="50" atlas="{partatlas}" sprite="{particon}" color="{particoncolor}" visible="{partvisible}" pos="330,-30" pivot="center" foregroundlayer="true" />
 			
-			<label depth="4" pos="16,-16" width="350" height="28" text="EMPTY MODIFIER SLOT" text_key="xuiEmptyModSlot" font_size="26" justify="center" visible="{emptyvisible}" />
+			<label depth="4" pos="16,-16" width="350" height="28" text="EMPTY MODIFIER SLOT" font_size="26" justify="center" visible="{emptyvisible}" />
 		</rect>
 	</item_part_slot>
 	

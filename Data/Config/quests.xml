@@ -1,7 +1,7 @@
 <!--
 	Quest format description:
 
-	Example: <quest id="quest_BasicSurvival1" name_key="Basic Survival 1/8" subtitle_key="Craft a Stone Axe" description_key="blah" icon="ui_game_symbol_hammer" >
+	Example:	<quest id="quest_BasicSurvival1" name_key="Basic Survival 1/8" subtitle_key="Craft a Stone Axe" description_key="blah" icon="ui_game_symbol_hammer" >
 
 	id = ID used for the quest
 	name_key - localization key for the quest used when displayed in the quest list.
@@ -26,7 +26,7 @@
 		<reward type="LootItem" id="questMelee,questRanged" value="1" ischosen="true" isfixed="true" />
 		<reward type="LootItem" id="questMelee" value="2" ischosen="true" />
 
-		isfixed="true"  : This reward is always picked (top of the list), not randomly. Other rewards are shuffled.
+		isfixed="true" : This reward is always picked (top of the list), not randomly. Other rewards are shuffled.
 		ischosen="true" : this reward is available for selection by the player, number of picks depend on the passive
 
 	Related passives:
@@ -47,9 +47,9 @@
 		 (*) not scaled for item quality but can scale for probability, like more drugs at higher gamestage
 
 	A (item) reward type also uses a scaling factor "value".
-		If value = 1 through 6,  the reward will be this tier but can be randomly 1 tier lower.
+		If value = 1 through 6, the reward will be this tier but can be randomly 1 tier lower.
 							At higher tiers, low level loot like iron tools will no longer be offered.
-		If value = 11 through 16,  the reward will be item tier 1-6 AND have a higher probability for "better" loot as in steel tools instead of iron.
+		If value = 11 through 16, the reward will be item tier 1-6 AND have a higher probability for "better" loot as in steel tools instead of iron.
 -->
 
 <quests max_quest_tier="5">
@@ -79,10 +79,10 @@
 
 		<reward type="Exp" value="100" />
 		<reward type="Quest" id="quest_BasicSurvival2" />
-    </quest>
+	</quest>
 
 	<!-- Basic Survival 2 - Craft a Stone Axe /> -->
-    <quest id="quest_BasicSurvival2">
+	<quest id="quest_BasicSurvival2">
 		<property name="group_name_key" value="quest_BasicSurvival" />
 		<property name="name_key" value="quest_BasicSurvival2" />
 		<property name="subtitle" value="Craft a Stone Axe" />
@@ -105,8 +105,7 @@
 
 		<reward type="Exp" value="100" />
 		<reward type="Quest" id="quest_BasicSurvival3" />
-
-    </quest>
+	</quest>
 
 	<!-- Basic Survival 3 - Craft Plant Fiber Clothing /> -->
 	<quest id="quest_BasicSurvival3">
@@ -128,7 +127,7 @@
 
 		<reward type="Exp" value="100" />
 		<reward type="Quest" id="quest_BasicSurvival4" />
-    </quest>
+	</quest>
 
 	<!-- Basic Survival 4 - Wear Plant Fiber Clothing /> -->
 	<quest id="quest_BasicSurvival4">
@@ -149,7 +148,7 @@
 
 		<reward type="Exp" value="100" />
 		<reward type="Quest" id="quest_BasicSurvival5" />
-    </quest>
+	</quest>
 
 	<!-- Basic Survival 5 - Craft a Wooden Club /> -->
 	<quest id="quest_BasicSurvival5">
@@ -167,7 +166,7 @@
 
 		<reward type="Exp" value="100" />
 		<reward type="Quest" id="quest_BasicSurvival6" />
-    </quest>
+	</quest>
 
 	<!-- Basic Survival 6 - Craft Bow & Arrows /> -->
 	<quest id="quest_BasicSurvival6">
@@ -182,14 +181,14 @@
 
 		<objective type="FetchKeep" id="resourceWood" value="10" phase="1" />
 		<objective type="FetchKeep" id="resourceYuccaFibers" value="3" phase="1" />
-		<objective type="FetchKeep" id="resourceFeather" value="2"  phase="1"/>
+		<objective type="FetchKeep" id="resourceFeather" value="2" phase="1"/>
 		<objective type="FetchKeep" id="resourceRockSmall" value="2" phase="1" />
 		<objective type="Craft" id="gunWoodenBow" value="1" phase="2" />
 		<objective type="Craft" id="ammoArrowStone" value="2" phase="2" />
 
 		<reward type="Exp" value="100" />
 		<reward type="Quest" id="quest_BasicSurvival7" />
-    </quest>
+	</quest>
 
 	<!-- Basic Survival 7 - Start a Base /> -->
 	<quest id="quest_BasicSurvival7">
@@ -209,7 +208,7 @@
 
 		<reward type="Exp" value="100" />
 		<reward type="Quest" id="quest_BasicSurvival8" />
-    </quest>
+	</quest>
 
 	<!-- Basic Survival 8 - Build a Campfire /> -->
 	<quest id="quest_BasicSurvival8">
@@ -231,8 +230,8 @@
 			<property name="chainquest" value="false" />
 		</reward>
 		<reward type="SkillPoints" value="4" chainreward="true" />
-		<!-- <reward type="ShowTip" value="whiteRiverCitizen" stage="aftercomplete" />  -->
-    </quest>
+		<!-- <reward type="ShowTip" value="whiteRiverCitizen" stage="aftercomplete" /> -->
+	</quest>
 
 	<!-- White River Citizen 1 - Journey to Settlement -->
 	<quest id="quest_whiteRiverCitizen1">
@@ -253,7 +252,7 @@
 		</objective>
 
 		<reward type="Exp" value="1000" />
-    </quest>
+	</quest>
 
 	<!-- CHALLENGES -->
 	<quest id="challenge_silenceofthelambs">
@@ -477,7 +476,6 @@
 		<reward type="Exp" value="1000" />
 		<reward type="Item" id="casinoCoin" value="200-500" />
 	</quest>
-
 
 	<quest id="challenge_maneater">
 		<property name="name_key" value="challenge_maneater" />
@@ -734,7 +732,7 @@
 		<property name="offer_key" value="challenge_killthewabbit_offer" />
 		<property name="difficulty" value="medium" />
 
-		<objective type="AnimalKill" id="animalRabbit" value="5"  />
+		<objective type="AnimalKill" id="animalRabbit" value="5" />
 
 		<requirement type="Holding" id="gunPumpShotgun" />
 
@@ -751,7 +749,7 @@
 		<property name="offer_key" value="challenge_nailsomechicks_offer" />
 		<property name="difficulty" value="medium" />
 
-		<objective type="AnimalKill" id="animalChicken" value="5"  />
+		<objective type="AnimalKill" id="animalChicken" value="5" />
 
 		<requirement type="Holding" id="gunToolNailgun" />
 
@@ -768,7 +766,7 @@
 		<property name="offer_key" value="challenge_thatlldopig_offer" />
 		<property name="difficulty" value="easy" />
 
-		<objective type="AnimalKill" id="animalBoar" value="5"  />
+		<objective type="AnimalKill" id="animalBoar" value="5" />
 
 		<reward type="Exp" value="1000" />
 	</quest>
@@ -783,7 +781,7 @@
 		<property name="offer_key" value="challenge_stagparty_offer" />
 		<property name="difficulty" value="easy" />
 
-		<objective type="AnimalKill" id="animalStag" value="5"  />
+		<objective type="AnimalKill" id="animalStag" value="5" />
 
 		<reward type="Exp" value="1000" />
 	</quest>
@@ -798,7 +796,7 @@
 		<property name="offer_key" value="challenge_dontfeedthebears_offer" />
 		<property name="difficulty" value="hard" />
 
-		<objective type="AnimalKill" id="animalBear" value="3"  />
+		<objective type="AnimalKill" id="animalBear" value="3" />
 
 		<reward type="SkillPoints" value="1" />
 	</quest>
@@ -813,11 +811,11 @@
 		<property name="offer_key" value="challenge_buythefarm_offer" />
 		<property name="difficulty" value="medium" />
 
-		<objective type="AnimalKill" id="animalRabbit" value="1"  />
-		<objective type="AnimalKill" id="animalChicken" value="1"  />
-		<objective type="AnimalKill" id="animalBoar" value="1"  />
-		<objective type="AnimalKill" id="animalStag" value="1"  />
-		<objective type="AnimalKill" id="animalBear" value="1"  />
+		<objective type="AnimalKill" id="animalRabbit" value="1" />
+		<objective type="AnimalKill" id="animalChicken" value="1" />
+		<objective type="AnimalKill" id="animalBoar" value="1" />
+		<objective type="AnimalKill" id="animalStag" value="1" />
+		<objective type="AnimalKill" id="animalBear" value="1" />
 
 
 		<reward type="SkillPoints" value="1" />
@@ -984,16 +982,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="1000" />
-		<reward type="Item" id="casinoCoin" value="200-500" />
+		<reward type="Exp" value="5000" />
+		<reward type="Item" id="casinoCoin" value="300-750" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="1" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="1" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="1" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="1" />
-
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="2" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
 	</quest>
 
 	<quest id="tier2_clear">
@@ -1038,15 +1035,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="1500" />
-		<reward type="Item" id="casinoCoin" value="500-750" />
+		<reward type="Exp" value="7500" />
+		<reward type="Item" id="casinoCoin" value="750-1125" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="2" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="2" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="3" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="3" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="3" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="3" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="3" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="3" />
 	</quest>
 
 	<quest id="tier3_clear">
@@ -1091,15 +1088,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="2000" />
-		<reward type="Item" id="casinoCoin" value="750-1000" />
+		<reward type="Exp" value="10000" />
+		<reward type="Item" id="casinoCoin" value="1125-1500" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="3" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="3" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="3" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="3" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="3" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="3" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="4" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="4" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="4" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="4" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="4" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="4" />
 	</quest>
 
 	<quest id="tier4_clear">
@@ -1144,15 +1141,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="2500" />
-		<reward type="Item" id="casinoCoin" value="1000-1250" />
+		<reward type="Exp" value="12500" />
+		<reward type="Item" id="casinoCoin" value="1500-1875" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="4" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="4" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="4" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="4" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="4" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="4" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="5" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="5" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="5" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="5" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="5" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="5" />
 	</quest>
 
 	<quest id="tier5_clear">
@@ -1197,15 +1194,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="3000" />
-		<reward type="Item" id="casinoCoin" value="1250-1500" />
+		<reward type="Exp" value="15000" />
+		<reward type="Item" id="casinoCoin" value="1875-2250" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="5" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="5" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="5" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="5" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="5" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="5" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="6" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="6" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="6" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="6" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="6" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="6" />
 	</quest>
 
 	<quest id="tier6_clear">
@@ -1250,8 +1247,8 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="3500" />
-		<reward type="Item" id="casinoCoin" value="1500-1750" />
+		<reward type="Exp" value="17500" />
+		<reward type="Item" id="casinoCoin" value="2250-2625" />
 
 		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="6" />
 		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="6" />
@@ -1306,15 +1303,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="1000" />
-		<reward type="Item" id="casinoCoin" value="250-500" />
+		<reward type="Exp" value="5000" />
+		<reward type="Item" id="casinoCoin" value="375-750" />
 
-		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="1" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="1" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="1" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="1" />
+		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="2" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
 	</quest>
 
 	<quest id="tier2_fetch">
@@ -1362,15 +1359,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="1500" />
-		<reward type="Item" id="casinoCoin" value="500-750" />
+		<reward type="Exp" value="7500" />
+		<reward type="Item" id="casinoCoin" value="750-1125" />
 
-		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="2" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="2" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
+		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="3" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="3" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="3" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="3" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="3" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="3" />
 
 	</quest>
 
@@ -1419,15 +1416,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="2000" />
-		<reward type="Item" id="casinoCoin" value="750-1000" />
+		<reward type="Exp" value="10000" />
+		<reward type="Item" id="casinoCoin" value="1175-1500" />
 
-		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="3" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="3" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="3" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="3" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="3" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="3" />
+		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="4" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="4" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="4" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="4" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="4" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="4" />
 
 	</quest>
 
@@ -1476,15 +1473,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="2500" />
-		<reward type="Item" id="casinoCoin" value="1000-1250" />
+		<reward type="Exp" value="12500" />
+		<reward type="Item" id="casinoCoin" value="1500-1875" />
 
-		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="4" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="4" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="4" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="4" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="4" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="4" />
+		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="5" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="5" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="5" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="5" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="5" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="5" />
 	</quest>
 
 	<quest id="tier5_fetch">
@@ -1532,15 +1529,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="3000" />
-		<reward type="Item" id="casinoCoin" value="1250-1500" />
+		<reward type="Exp" value="15000" />
+		<reward type="Item" id="casinoCoin" value="1875-2250" />
 
-		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="5" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="5" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="5" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="5" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="5" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="5" />
+		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="6" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="6" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="6" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="6" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="6" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="6" />
 	</quest>
 
 	<quest id="tier6_fetch">
@@ -1588,8 +1585,8 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="3500" />
-		<reward type="Item" id="casinoCoin" value="1500-1750" />
+		<reward type="Exp" value="17500" />
+		<reward type="Item" id="casinoCoin" value="2250-2625" />
 
 		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="6" />
 		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="6" />
@@ -1645,15 +1642,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="2000" />
-		<reward type="Item" id="casinoCoin" value="750-1000" />
+		<reward type="Exp" value="10000" />
+		<reward type="Item" id="casinoCoin" value="1225-1500" />
 
-		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="2" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="2" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
+		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="3" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="3" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="3" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="3" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="3" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="3" />
 	</quest>
 
 	<quest id="tier3_hidden_cache">
@@ -1702,15 +1699,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="2500" />
-		<reward type="Item" id="casinoCoin" value="1000-1250" />
+		<reward type="Exp" value="12500" />
+		<reward type="Item" id="casinoCoin" value="1500-1875" />
 
-		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="3" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="3" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="3" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="3" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="3" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="3" />
+		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="4" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="4" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="4" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="4" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="4" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="4" />
 	</quest>
 
 	<quest id="tier4_hidden_cache">
@@ -1759,15 +1756,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="3000" />
-		<reward type="Item" id="casinoCoin" value="1250-1500" />
+		<reward type="Exp" value="15000" />
+		<reward type="Item" id="casinoCoin" value="1875-2250" />
 
-		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="4" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="4" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="4" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="4" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="4" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="4" />
+		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="5" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="5" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="5" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="5" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="5" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="5" />
 	</quest>
 
 	<quest id="tier5_hidden_cache">
@@ -1816,15 +1813,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="3500" />
-		<reward type="Item" id="casinoCoin" value="1500-1750" />
+		<reward type="Exp" value="17500" />
+		<reward type="Item" id="casinoCoin" value="2250-2625" />
 
-		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="5" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="5" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="5" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="5" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="5" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="5" />
+		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="6" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="6" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="6" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="6" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="6" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="6" />
 	</quest>
 
 	<quest id="tier6_hidden_cache">
@@ -1873,8 +1870,8 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="4000" />
-		<reward type="Item" id="casinoCoin" value="1750-2000" />
+		<reward type="Exp" value="20000" />
+		<reward type="Item" id="casinoCoin" value="2625-3000" />
 
 		<reward type="LootItem" id="questTools" ischosen="true" isfixed="true" value="6" />
 		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="6" />
@@ -1933,15 +1930,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="2000" />
-		<reward type="Item" id="casinoCoin" value="750-1000" />
+		<reward type="Exp" value="10000" />
+		<reward type="Item" id="casinoCoin" value="1225-1500" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="2" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="2" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="3" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="3" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="3" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="3" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="3" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="3" />
 
 	</quest>
 
@@ -1994,15 +1991,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="2500" />
-		<reward type="Item" id="casinoCoin" value="1000-1250" />
+		<reward type="Exp" value="12500" />
+		<reward type="Item" id="casinoCoin" value="1500-1875" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="3" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="3" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="3" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="3" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="3" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="3" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="4" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="4" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="4" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="4" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="4" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="4" />
 
 	</quest>
 
@@ -2055,15 +2052,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="3000" />
-		<reward type="Item" id="casinoCoin" value="1250-1500" />
+		<reward type="Exp" value="15000" />
+		<reward type="Item" id="casinoCoin" value="1875-2250" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="4" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="4" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="4" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="4" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="4" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="4" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="5" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="5" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="5" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="5" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="5" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="5" />
 
 	</quest>
 
@@ -2116,15 +2113,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="3500" />
-		<reward type="Item" id="casinoCoin" value="1500-1750" />
+		<reward type="Exp" value="17500" />
+		<reward type="Item" id="casinoCoin" value="2250-2625" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="5" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="5" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="5" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="5" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="5" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="5" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="6" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="6" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="6" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="6" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="6" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="6" />
 	</quest>
 
 	<quest id="tier6_fetch_clear">
@@ -2176,8 +2173,8 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="4000" />
-		<reward type="Item" id="casinoCoin" value="1750-2000" />
+		<reward type="Exp" value="20000" />
+		<reward type="Item" id="casinoCoin" value="2625-3000" />
 
 		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="6" />
 		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="6" />
@@ -2237,15 +2234,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="3000" />
-		<reward type="Item" id="casinoCoin" value="1250-1500" />
+		<reward type="Exp" value="15000" />
+		<reward type="Item" id="casinoCoin" value="1875-2250" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="3" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="3" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="3" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="3" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="3" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="3" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="4" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="4" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="4" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="4" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="4" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="4" />
 
 	</quest>
 
@@ -2299,15 +2296,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="3500" />
-		<reward type="Item" id="casinoCoin" value="1500-1750" />
+		<reward type="Exp" value="17500" />
+		<reward type="Item" id="casinoCoin" value="2250-2625" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="4" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="4" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="4" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="4" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="4" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="4" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="5" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="5" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="5" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="5" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="5" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="5" />
 
 	</quest>
 
@@ -2361,15 +2358,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="4000" />
-		<reward type="Item" id="casinoCoin" value="1750-2000" />
+		<reward type="Exp" value="20000" />
+		<reward type="Item" id="casinoCoin" value="2625-3000" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="5" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="5" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="5" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="5" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="5" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="5" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="6" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="6" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="6" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="6" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="6" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="6" />
 	</quest>
 
 	<quest id="tier6_hidden_clear">
@@ -2422,8 +2419,8 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="4500" />
-		<reward type="Item" id="casinoCoin" value="2000-2250" />
+		<reward type="Exp" value="22500" />
+		<reward type="Item" id="casinoCoin" value="3000-3375" />
 
 		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="6" />
 		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="6" />
@@ -2471,15 +2468,15 @@
 			<property name="phase" value="2" />
 		</objective>
 
-		<reward type="Exp" value="1000" />
-		<reward type="Item" id="casinoCoin" value="1500-1750" />
+		<reward type="Exp" value="5000" />
+		<reward type="Item" id="casinoCoin" value="2250-2625" />
 
-		<reward type="LootItem" id="questMedical" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questMelee,questRanged,questArmor" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="1" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="1" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="1" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="1" />
+		<reward type="LootItem" id="questMedical" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questMelee,questRanged,questArmor" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="2" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
 	</quest>
 
 	<quest id="test_sleepers">
@@ -2523,15 +2520,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="Item" id="casinoCoin" value="200-500" />
 
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="1" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="1" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="1" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="1" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="2" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
 
 	</quest>
 
@@ -2579,14 +2576,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="Item" id="casinoCoin" value="200-500" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="1" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="1" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="1" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="1" />
+
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="2" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
 	</quest>
 
 	<quest id="test_fetchsleep">
@@ -2637,14 +2635,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="Item" id="casinoCoin" value="200-500" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="1" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="1" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="1" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="1" />
+
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="2" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
 	</quest>
 
 	<quest id="test_hiddensleep">
@@ -2696,14 +2695,15 @@
 			<property name="phase" value="4" />
 		</objective>
 
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="Item" id="casinoCoin" value="200-500" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="1" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="1" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="1" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="1" />
+
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="2" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
 	</quest>
 
 	<quest id="test_turnin">
@@ -2726,13 +2726,14 @@
 		</objective>
 
 		<reward type="Skill" id="Influence" value="1000000" />
-		<reward type="Exp" value="1000" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="1" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="1" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="1" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="1" />
-		<reward type="LootItem" id="questMods" ischosen="true" value="1" />
+		<reward type="Exp" value="5000" />
+
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" isfixed="true" value="2" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="2" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="2" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
+		<reward type="LootItem" id="questMods" ischosen="true" value="2" />
 	</quest>
 
 	<quest id="test_turnin2">
@@ -2752,10 +2753,10 @@
 
 		<reward type="Item" id="casinoCoin" value="200" />
 
-		<reward type="LootItem" id="questMelee" value="1" ischosen="true" isfixed="true" />
-		<reward type="LootItem" id="questArmor" value="6" ischosen="true" isfixed="true" />
-		<reward type="LootItem" id="questRanged" value="3" ischosen="true" isfixed="true" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" value="1" />
+		<reward type="LootItem" id="questMelee" ischosen="true" isfixed="true" value="1"/>
+		<reward type="LootItem" id="questArmor" ischosen="true" isfixed="true" value="6"/>
+		<reward type="LootItem" id="questRanged" ischosen="true" isfixed="true" value="3"/>
+		<reward type="LootItem" id="questSchematics" ischosen="true" value="2" />
 		<reward type="SkillPoints" value="5" ischosen="true" />
 	</quest>
 
@@ -2763,26 +2764,6 @@
 		<property name="name_key" value="quest_tier1_complete" />
 		<property name="subtitle_key" value="quest_tier1_complete" />
 		<property name="description_key" value="quest_tier1_complete_description" />
-		<property name="icon" value="ui_game_symbol_loot_sack" />
-		<property name="repeatable" value="false" />
-		<property name="category_key" value="reward" />
-		<property name="difficulty" value="easy" />
-		<property name="completiontype" value="TurnIn" />
-		<property name="completion_key" value="quest_tier_complete_competion" />
-
-		<reward type="Item" id="casinoCoin" value="2000" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" isfixed="true" value="11" />
-		<reward type="LootItem" id="questMods" ischosen="true" isfixed="true" value="11" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="11" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="11" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="11" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" value="11" />
-	</quest>
-
-	<quest id="quest_tier2complete">
-		<property name="name_key" value="quest_tier2_complete" />
-		<property name="subtitle_key" value="quest_tier2_complete" />
-		<property name="description_key" value="quest_tier2_complete_description" />
 		<property name="icon" value="ui_game_symbol_loot_sack" />
 		<property name="repeatable" value="false" />
 		<property name="category_key" value="reward" />
@@ -2799,10 +2780,10 @@
 		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" value="12" />
 	</quest>
 
-	<quest id="quest_tier3complete">
-		<property name="name_key" value="quest_tier3_complete" />
-		<property name="subtitle_key" value="quest_tier3_complete" />
-		<property name="description_key" value="quest_tier3_complete_description" />
+	<quest id="quest_tier2complete">
+		<property name="name_key" value="quest_tier2_complete" />
+		<property name="subtitle_key" value="quest_tier2_complete" />
+		<property name="description_key" value="quest_tier2_complete_description" />
 		<property name="icon" value="ui_game_symbol_loot_sack" />
 		<property name="repeatable" value="false" />
 		<property name="category_key" value="reward" />
@@ -2819,10 +2800,10 @@
 		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" value="13" />
 	</quest>
 
-	<quest id="quest_tier4complete">
-		<property name="name_key" value="quest_tier4_complete" />
-		<property name="subtitle_key" value="quest_tier4_complete" />
-		<property name="description_key" value="quest_tier4_complete_description" />
+	<quest id="quest_tier3complete">
+		<property name="name_key" value="quest_tier3_complete" />
+		<property name="subtitle_key" value="quest_tier3_complete" />
+		<property name="description_key" value="quest_tier3_complete_description" />
 		<property name="icon" value="ui_game_symbol_loot_sack" />
 		<property name="repeatable" value="false" />
 		<property name="category_key" value="reward" />
@@ -2839,6 +2820,26 @@
 		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" value="14" />
 	</quest>
 
+	<quest id="quest_tier4complete">
+		<property name="name_key" value="quest_tier4_complete" />
+		<property name="subtitle_key" value="quest_tier4_complete" />
+		<property name="description_key" value="quest_tier4_complete_description" />
+		<property name="icon" value="ui_game_symbol_loot_sack" />
+		<property name="repeatable" value="false" />
+		<property name="category_key" value="reward" />
+		<property name="difficulty" value="easy" />
+		<property name="completiontype" value="TurnIn" />
+		<property name="completion_key" value="quest_tier_complete_competion" />
+
+		<reward type="Item" id="casinoCoin" value="2000" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" isfixed="true" value="15" />
+		<reward type="LootItem" id="questMods" ischosen="true" isfixed="true" value="15" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="15" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="15" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="15" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" value="15" />
+	</quest>
+
 	<quest id="quest_tier5complete">
 		<property name="name_key" value="quest_tier5_complete" />
 		<property name="subtitle_key" value="quest_tier5_complete" />
@@ -2851,12 +2852,12 @@
 		<property name="completion_key" value="quest_tier5_complete_competion" />
 
 		<reward type="Item" id="casinoCoin" value="2000" />
-		<reward type="LootItem" id="questSchematics" ischosen="true" isfixed="true" value="15" />
-		<reward type="LootItem" id="questMods" ischosen="true" isfixed="true" value="15" />
-		<reward type="LootItem" id="questAmmo" ischosen="true" value="15" />
-		<reward type="LootItem" id="questTools" ischosen="true" value="15" />
-		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="15" />
-		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" value="15" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" isfixed="true" value="16" />
+		<reward type="LootItem" id="questMods" ischosen="true" isfixed="true" value="16" />
+		<reward type="LootItem" id="questAmmo" ischosen="true" value="16" />
+		<reward type="LootItem" id="questTools" ischosen="true" value="16" />
+		<reward type="LootItem" id="questMelee,questRanged" ischosen="true" value="16" />
+		<reward type="LootItem" id="questArmor,questMedical" ischosen="true" value="16" />
 	</quest>
 
 	<quest id="quest_tier6complete">
@@ -2880,51 +2881,51 @@
 	</quest>
 
 	<quest_list id="test_quests">
-		<quest id="test_sleepers" />
-		<quest id="test_fetch" />
-		<quest id="test_fetchsleep" />
-		<quest id="test_hiddensleep" />
+	<quest id="test_sleepers" />
+	<quest id="test_fetch" />
+	<quest id="test_fetchsleep" />
+	<quest id="test_hiddensleep" />
 	</quest_list>
 
 	<quest_list id="trader_quests">
 		<!-- Tier 1 -->
-		<quest id="tier1_clear" />
-		<quest id="tier1_fetch" />
-		<quest id="tier1_buried_supplies" />
+	<quest id="tier1_clear" />
+	<quest id="tier1_fetch" />
+	<quest id="tier1_buried_supplies" />
 
 		<!-- Tier 2 -->
-		<quest id="tier2_clear" />
-		<quest id="tier2_fetch" />
-		<quest id="tier2_hidden_cache" />
-		<quest id="tier2_fetch_clear" />
+	<quest id="tier2_clear" />
+	<quest id="tier2_fetch" />
+	<quest id="tier2_hidden_cache" />
+	<quest id="tier2_fetch_clear" />
 
 		<!-- Tier 3 -->
-		<quest id="tier3_clear" />
-		<quest id="tier3_fetch" />
-		<quest id="tier3_hidden_cache" />
-		<quest id="tier3_fetch_clear" />
-		<quest id="tier3_hidden_clear" />
+	<quest id="tier3_clear" />
+	<quest id="tier3_fetch" />
+	<quest id="tier3_hidden_cache" />
+	<quest id="tier3_fetch_clear" />
+	<quest id="tier3_hidden_clear" />
 
 		<!-- Tier 4 -->
-		<quest id="tier4_clear" />
-		<quest id="tier4_fetch" />
-		<quest id="tier4_hidden_cache" />
-		<quest id="tier4_fetch_clear" />
-		<quest id="tier4_hidden_clear" />
+	<quest id="tier4_clear" />
+	<quest id="tier4_fetch" />
+	<quest id="tier4_hidden_cache" />
+	<quest id="tier4_fetch_clear" />
+	<quest id="tier4_hidden_clear" />
 
 		<!-- Tier 5 -->
-		<quest id="tier5_clear" />
-		<quest id="tier5_fetch" />
-		<quest id="tier5_hidden_cache" />
-		<quest id="tier5_fetch_clear" />
-		<quest id="tier5_hidden_clear" />
+	<quest id="tier5_clear" />
+	<quest id="tier5_fetch" />
+	<quest id="tier5_hidden_cache" />
+	<quest id="tier5_fetch_clear" />
+	<quest id="tier5_hidden_clear" />
 
 		<!-- Tier 6 -->
-		<!-- <quest id="tier6_clear" /> -->
-		<!-- <quest id="tier6_fetch" /> -->
-		<!-- <quest id="tier6_hidden_cache" /> -->
-		<!-- <quest id="tier6_fetch_clear" /> -->
-		<!-- <quest id="tier6_hidden_clear" /> -->
+		<!--	<quest id="tier6_clear" /> -->
+		<!--	<quest id="tier6_fetch" /> -->
+		<!--	<quest id="tier6_hidden_cache" /> -->
+		<!--	<quest id="tier6_fetch_clear" /> -->
+		<!--	<quest id="tier6_hidden_clear" /> -->
 
 	</quest_list>
 
